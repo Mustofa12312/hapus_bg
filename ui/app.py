@@ -7,6 +7,7 @@ from tkinterdnd2 import TkinterDnD, DND_FILES
 
 from ui.widgets import LogTextBox
 from core.processor import BatchProcessor
+from core.scanner import scan_for_images
 from utils.logger import set_ui_callback
 from utils.paths import get_output_folder
 
@@ -46,6 +47,10 @@ class App(TkDnDWrapper):
         ctk.CTkLabel(header_frame, text="PNG Background Remover", font=ctk.CTkFont(size=24, weight="bold")).pack()
         ctk.CTkLabel(header_frame, text="AI Offline Batch Processor", font=ctk.CTkFont(size=14)).pack()
         
+        # File count label
+        self.file_count_label = ctk.CTkLabel(header_frame, text="", text_color="orange", font=ctk.CTkFont(size=12))
+        self.file_count_label.pack()
+        
         # 2. Folder Section
         folder_frame = ctk.CTkFrame(self)
         folder_frame.grid(row=1, column=0, padx=20, pady=10, sticky="ew")
@@ -69,17 +74,20 @@ class App(TkDnDWrapper):
         # 3. Process Section
         process_frame = ctk.CTkFrame(self, fg_color="transparent")
         process_frame.grid(row=2, column=0, padx=20, pady=10, sticky="ew")
-        process_frame.grid_columnconfigure(1, weight=1)
+        process_frame.grid_columnconfigure(2, weight=1)
         
         self.start_btn = ctk.CTkButton(process_frame, text="Mulai Proses", command=self.start_process, state="disabled")
-        self.start_btn.grid(row=0, column=0, padx=(0, 20))
+        self.start_btn.grid(row=0, column=0, padx=(0, 10))
+        
+        self.cancel_btn = ctk.CTkButton(process_frame, text="Berhenti", command=self.cancel_process, state="disabled", fg_color="#cc3333")
+        self.cancel_btn.grid(row=0, column=1, padx=(0, 10))
         
         self.progress_bar = ctk.CTkProgressBar(process_frame)
-        self.progress_bar.grid(row=0, column=1, sticky="ew", padx=(0, 10))
+        self.progress_bar.grid(row=0, column=2, sticky="ew", padx=(0, 10))
         self.progress_bar.set(0)
         
         self.progress_label = ctk.CTkLabel(process_frame, text="0%")
-        self.progress_label.grid(row=0, column=2)
+        self.progress_label.grid(row=0, column=3)
         
         # 4. Log Section
         self.log_box = LogTextBox(self, height=200)
@@ -88,6 +96,9 @@ class App(TkDnDWrapper):
         # 5. Footer
         footer_frame = ctk.CTkFrame(self, fg_color="transparent")
         footer_frame.grid(row=4, column=0, padx=20, pady=(10, 20), sticky="ew")
+        
+        self.clear_log_btn = ctk.CTkButton(footer_frame, text="Hapus Log", command=self.clear_logs, width=100)
+        self.clear_log_btn.pack(side="left", padx=(0, 10))
         
         self.open_folder_btn = ctk.CTkButton(footer_frame, text="Buka Folder Hasil", command=self.open_output_folder, state="disabled")
         self.open_folder_btn.pack(side="right")
@@ -113,6 +124,18 @@ class App(TkDnDWrapper):
         self.folder_path_label.configure(text=path, text_color="white")
         self.start_btn.configure(state="normal")
         self.log_box.append_log(f"[INFO] Folder dipilih: {path}")
+        
+        # Preview file count
+        try:
+            image_files = scan_for_images(path)
+            file_count = len(image_files)
+            if file_count > 0:
+                self.file_count_label.configure(text=f"📁 Ditemukan {file_count} gambar (siap diproses)")
+            else:
+                self.file_count_label.configure(text="⚠️  Tidak ada gambar dalam folder")
+                self.start_btn.configure(state="disabled")
+        except Exception as e:
+            self.log_box.append_log(f"[ERROR] Gagal menghitung file: {e}")
         
     def start_process(self):
         if not self.selected_folder:

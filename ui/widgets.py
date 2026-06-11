@@ -24,3 +24,9 @@ class LogTextBox(ctk.CTkTextbox):
         self.insert("end", text + "\n", tag)
         self.see("end")
         self.configure(state="disabled")
+    
+    def clear_log(self):
+        """Clear all log content."""
+        self.configure(state="normal")
+        self.delete("1.0", "end")
+        self.configure(state="disabled")
