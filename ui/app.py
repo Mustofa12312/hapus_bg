@@ -51,7 +51,7 @@ class App(TkDnDWrapper):
     def setup_ui(self):
         # Grid config
         self.grid_columnconfigure(0, weight=1)
-        self.grid_rowconfigure(3, weight=1) # Log box takes remaining space
+        self.grid_rowconfigure(4, weight=1) # Log box takes remaining space
         
         # 1. Header with gradient-like effect
         header_frame = ctk.CTkFrame(self, fg_color="#1a1a2e", corner_radius=12)
@@ -197,14 +197,14 @@ class App(TkDnDWrapper):
             font=ctk.CTkFont(size=12, weight="bold"),
             text_color="#00d4ff"
         )
-        log_label.grid(row=2.5, column=0, padx=20, pady=(8, 2), sticky="w")
+        log_label.grid(row=3, column=0, padx=20, pady=(8, 2), sticky="w")
         
         self.log_box = LogTextBox(self, height=180, fg_color="#0f1419", border_color="#1a3a4d", border_width=2)
-        self.log_box.grid(row=3, column=0, padx=15, pady=(0, 8), sticky="nsew")
+        self.log_box.grid(row=4, column=0, padx=15, pady=(0, 8), sticky="nsew")
         
         # 5. Footer with action buttons
         footer_frame = ctk.CTkFrame(self, fg_color="#1a1a2e", corner_radius=12)
-        footer_frame.grid(row=4, column=0, padx=15, pady=(8, 15), sticky="ew")
+        footer_frame.grid(row=5, column=0, padx=15, pady=(8, 15), sticky="ew")
         footer_frame.grid_columnconfigure(1, weight=1)
         
         self.clear_log_btn = ctk.CTkButton(
