@@ -5,10 +5,10 @@ class LogTextBox(ctk.CTkTextbox):
         super().__init__(master, **kwargs)
         self.configure(state="disabled")
         
-        # Tags for coloring log levels
-        self.tag_config("INFO", foreground="lightgreen")
-        self.tag_config("ERROR", foreground="red")
-        self.tag_config("DEBUG", foreground="gray")
+        # Tags for coloring log levels with modern colors
+        self.tag_config("INFO", foreground="#00ff88", font=("Monaco", 10))
+        self.tag_config("ERROR", foreground="#ff4444", font=("Monaco", 10, "bold"))
+        self.tag_config("DEBUG", foreground="#88aaff", font=("Monaco", 9))
 
     def append_log(self, text: str):
         self.configure(state="normal")

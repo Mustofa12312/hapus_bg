@@ -22,11 +22,15 @@ class App(TkDnDWrapper):
         super().__init__()
         
         self.title("PNG Background Remover")
-        self.geometry("1000x650")
+        self.geometry("1100x750")
         ctk.set_appearance_mode("dark")
+        ctk.set_default_color_theme("blue")
         
         self.selected_folder = None
         self.processor = BatchProcessor(self.update_progress, self.on_process_complete)
+        
+        # Set main background color
+        self.configure(fg_color="#0f0f0f")
         
         self.setup_ui()
         
@@ -36,72 +40,196 @@ class App(TkDnDWrapper):
             self.after(0, self.log_box.append_log, msg)
         set_ui_callback(log_to_ui)
         
+        # Center window on screen
+        self.update_idletasks()
+        width = self.winfo_width()
+        height = self.winfo_height()
+        x = (self.winfo_screenwidth() // 2) - (width // 2)
+        y = (self.winfo_screenheight() // 2) - (height // 2)
+        self.geometry(f'{width}x{height}+{x}+{y}')
+        
     def setup_ui(self):
         # Grid config
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(3, weight=1) # Log box takes remaining space
         
-        # 1. Header
-        header_frame = ctk.CTkFrame(self, fg_color="transparent")
-        header_frame.grid(row=0, column=0, padx=20, pady=(20, 10), sticky="ew")
-        ctk.CTkLabel(header_frame, text="PNG Background Remover", font=ctk.CTkFont(size=24, weight="bold")).pack()
-        ctk.CTkLabel(header_frame, text="AI Offline Batch Processor", font=ctk.CTkFont(size=14)).pack()
+        # 1. Header with gradient-like effect
+        header_frame = ctk.CTkFrame(self, fg_color="#1a1a2e", corner_radius=12)
+        header_frame.grid(row=0, column=0, padx=15, pady=(15, 8), sticky="ew")
+        header_frame.grid_columnconfigure(0, weight=1)
         
-        # File count label
-        self.file_count_label = ctk.CTkLabel(header_frame, text="", text_color="orange", font=ctk.CTkFont(size=12))
-        self.file_count_label.pack()
+        title_label = ctk.CTkLabel(
+            header_frame, 
+            text="🖼️  PNG Background Remover", 
+            font=ctk.CTkFont(size=28, weight="bold"),
+            text_color="#00d4ff"
+        )
+        title_label.pack(pady=(12, 4), padx=20)
         
-        # 2. Folder Section
-        folder_frame = ctk.CTkFrame(self)
-        folder_frame.grid(row=1, column=0, padx=20, pady=10, sticky="ew")
+        subtitle_label = ctk.CTkLabel(
+            header_frame, 
+            text="✨ AI Offline Batch Processor | Hapus background ratusan gambar sekaligus",
+            font=ctk.CTkFont(size=12),
+            text_color="#a0a0a0"
+        )
+        subtitle_label.pack(pady=(0, 4), padx=20)
+        
+        # File count label with better styling
+        self.file_count_label = ctk.CTkLabel(
+            header_frame, 
+            text="", 
+            text_color="#00ff88", 
+            font=ctk.CTkFont(size=11, weight="bold")
+        )
+        self.file_count_label.pack(pady=(0, 12), padx=20)
+        
+        # 2. Folder Selection Section
+        folder_frame = ctk.CTkFrame(self, fg_color="#16213e", corner_radius=12)
+        folder_frame.grid(row=1, column=0, padx=15, pady=8, sticky="ew")
         folder_frame.grid_columnconfigure(0, weight=1)
         
-        self.dnd_label = ctk.CTkLabel(folder_frame, text="Drag Folder Here\nor", height=80, fg_color="#333333", corner_radius=8)
-        self.dnd_label.grid(row=0, column=0, padx=20, pady=(20, 10), sticky="ew")
+        folder_label = ctk.CTkLabel(
+            folder_frame,
+            text="📂 Pilih Folder Sumber",
+            font=ctk.CTkFont(size=13, weight="bold"),
+            text_color="#00d4ff"
+        )
+        folder_label.pack(pady=(12, 8), padx=20, anchor="w")
+        
+        self.dnd_label = ctk.CTkLabel(
+            folder_frame, 
+            text="🎯 Drag & Drop Folder di Sini\nATAU", 
+            height=70, 
+            fg_color="#0f3460", 
+            corner_radius=8,
+            font=ctk.CTkFont(size=12),
+            text_color="#888888"
+        )
+        self.dnd_label.pack(padx=20, pady=8, fill="x", expand=False)
         
         # Enable DND on the label
         self.dnd_label.drop_target_register(DND_FILES)
         self.dnd_label.dnd_bind('<<Drop>>', self.on_drop)
         
         btn_frame = ctk.CTkFrame(folder_frame, fg_color="transparent")
-        btn_frame.grid(row=1, column=0, pady=(0, 20))
-        self.select_btn = ctk.CTkButton(btn_frame, text="Pilih Folder", command=self.select_folder)
-        self.select_btn.pack(side="left", padx=10)
+        btn_frame.pack(padx=20, pady=8, anchor="center")
         
-        self.folder_path_label = ctk.CTkLabel(folder_frame, text="Belum ada folder yang dipilih", text_color="gray")
-        self.folder_path_label.grid(row=2, column=0, pady=(0, 10))
+        self.select_btn = ctk.CTkButton(
+            btn_frame, 
+            text="📁 Pilih Folder", 
+            command=self.select_folder,
+            fg_color="#0084d4",
+            hover_color="#0066b3",
+            corner_radius=8,
+            font=ctk.CTkFont(size=12, weight="bold"),
+            width=180,
+            height=36
+        )
+        self.select_btn.pack(side="left", padx=8)
         
-        # 3. Process Section
-        process_frame = ctk.CTkFrame(self, fg_color="transparent")
-        process_frame.grid(row=2, column=0, padx=20, pady=10, sticky="ew")
-        process_frame.grid_columnconfigure(2, weight=1)
+        self.folder_path_label = ctk.CTkLabel(
+            folder_frame, 
+            text="📍 Belum ada folder yang dipilih", 
+            text_color="#666666",
+            font=ctk.CTkFont(size=10)
+        )
+        self.folder_path_label.pack(pady=(0, 12), padx=20, anchor="w")
         
-        self.start_btn = ctk.CTkButton(process_frame, text="Mulai Proses", command=self.start_process, state="disabled")
-        self.start_btn.grid(row=0, column=0, padx=(0, 10))
+        # 3. Process Controls Section
+        control_frame = ctk.CTkFrame(self, fg_color="#16213e", corner_radius=12)
+        control_frame.grid(row=2, column=0, padx=15, pady=8, sticky="ew")
+        control_frame.grid_columnconfigure(2, weight=1)
         
-        self.cancel_btn = ctk.CTkButton(process_frame, text="Berhenti", command=self.cancel_process, state="disabled", fg_color="#cc3333")
-        self.cancel_btn.grid(row=0, column=1, padx=(0, 10))
+        process_label = ctk.CTkLabel(
+            control_frame,
+            text="⚙️  Kontrol Proses",
+            font=ctk.CTkFont(size=12, weight="bold"),
+            text_color="#00d4ff"
+        )
+        process_label.grid(row=0, column=0, columnspan=4, pady=(10, 8), padx=20, sticky="w")
         
-        self.progress_bar = ctk.CTkProgressBar(process_frame)
-        self.progress_bar.grid(row=0, column=2, sticky="ew", padx=(0, 10))
+        self.start_btn = ctk.CTkButton(
+            control_frame, 
+            text="▶️  Mulai Proses", 
+            command=self.start_process, 
+            state="disabled",
+            fg_color="#00aa44",
+            hover_color="#008833",
+            corner_radius=8,
+            font=ctk.CTkFont(size=12, weight="bold"),
+            width=120,
+            height=34
+        )
+        self.start_btn.grid(row=1, column=0, padx=(20, 8), pady=(0, 12))
+        
+        self.cancel_btn = ctk.CTkButton(
+            control_frame, 
+            text="⏹️  Berhenti", 
+            command=self.cancel_process, 
+            state="disabled", 
+            fg_color="#d41f1f",
+            hover_color="#b31818",
+            corner_radius=8,
+            font=ctk.CTkFont(size=12, weight="bold"),
+            width=120,
+            height=34
+        )
+        self.cancel_btn.grid(row=1, column=1, padx=8, pady=(0, 12))
+        
+        # Progress section
+        self.progress_bar = ctk.CTkProgressBar(control_frame, height=24)
+        self.progress_bar.grid(row=1, column=2, sticky="ew", padx=8, pady=(0, 12))
         self.progress_bar.set(0)
         
-        self.progress_label = ctk.CTkLabel(process_frame, text="0%")
-        self.progress_label.grid(row=0, column=3)
+        self.progress_label = ctk.CTkLabel(
+            control_frame, 
+            text="0%",
+            font=ctk.CTkFont(size=12, weight="bold"),
+            text_color="#00ff88",
+            width=50
+        )
+        self.progress_label.grid(row=1, column=3, padx=(8, 20), pady=(0, 12))
         
         # 4. Log Section
-        self.log_box = LogTextBox(self, height=200)
-        self.log_box.grid(row=3, column=0, padx=20, pady=10, sticky="nsew")
+        log_label = ctk.CTkLabel(
+            self,
+            text="📋 Activity Log",
+            font=ctk.CTkFont(size=12, weight="bold"),
+            text_color="#00d4ff"
+        )
+        log_label.grid(row=2.5, column=0, padx=20, pady=(8, 2), sticky="w")
         
-        # 5. Footer
-        footer_frame = ctk.CTkFrame(self, fg_color="transparent")
-        footer_frame.grid(row=4, column=0, padx=20, pady=(10, 20), sticky="ew")
+        self.log_box = LogTextBox(self, height=180, fg_color="#0f1419", border_color="#1a3a4d", border_width=2)
+        self.log_box.grid(row=3, column=0, padx=15, pady=(0, 8), sticky="nsew")
         
-        self.clear_log_btn = ctk.CTkButton(footer_frame, text="Hapus Log", command=self.clear_logs, width=100)
-        self.clear_log_btn.pack(side="left", padx=(0, 10))
+        # 5. Footer with action buttons
+        footer_frame = ctk.CTkFrame(self, fg_color="#1a1a2e", corner_radius=12)
+        footer_frame.grid(row=4, column=0, padx=15, pady=(8, 15), sticky="ew")
+        footer_frame.grid_columnconfigure(1, weight=1)
         
-        self.open_folder_btn = ctk.CTkButton(footer_frame, text="Buka Folder Hasil", command=self.open_output_folder, state="disabled")
-        self.open_folder_btn.pack(side="right")
+        self.clear_log_btn = ctk.CTkButton(
+            footer_frame, 
+            text="🗑️  Clear Log", 
+            command=self.clear_logs, 
+            width=100,
+            fg_color="#666666",
+            hover_color="#777777",
+            corner_radius=8,
+            font=ctk.CTkFont(size=11, weight="bold")
+        )
+        self.clear_log_btn.pack(side="left", padx=(15, 8), pady=10)
+        
+        self.open_folder_btn = ctk.CTkButton(
+            footer_frame, 
+            text="📂 Buka Folder Hasil", 
+            command=self.open_output_folder, 
+            state="disabled",
+            fg_color="#0084d4",
+            hover_color="#0066b3",
+            corner_radius=8,
+            font=ctk.CTkFont(size=11, weight="bold")
+        )
+        self.open_folder_btn.pack(side="right", padx=(8, 15), pady=10)
 
     def on_drop(self, event):
         # tkinterdnd2 wraps paths in curly braces if they contain spaces
@@ -121,7 +249,7 @@ class App(TkDnDWrapper):
             
     def set_folder(self, path):
         self.selected_folder = path
-        self.folder_path_label.configure(text=path, text_color="white")
+        self.folder_path_label.configure(text=f"✅ {path}", text_color="#00ff88")
         self.start_btn.configure(state="normal")
         self.log_box.append_log(f"[INFO] Folder dipilih: {path}")
         
@@ -174,17 +302,18 @@ class App(TkDnDWrapper):
         self.cancel_btn.configure(state="disabled")
         self.open_folder_btn.configure(state="normal")
         
-        # Show summary
+        # Show summary with improved styling
         stats = self.processor.stats
         total = stats["success"] + stats["failed"]
-        self.log_box.append_log("\n" + "="*50)
-        self.log_box.append_log(f"[INFO] ✅ RINGKASAN PROSES")
-        self.log_box.append_log(f"[INFO] Total: {total} | Sukses: {stats['success']} | Gagal: {stats['failed']}")
+        self.log_box.append_log("\n" + "━"*60)
+        self.log_box.append_log(f"[INFO] ✅ RINGKASAN PROSES SELESAI")
+        self.log_box.append_log(f"[INFO] 📊 Total: {total} | ✅ Sukses: {stats['success']} | ❌ Gagal: {stats['failed']}")
         if stats["success"] == total:
-            self.log_box.append_log("[INFO] 🎉 Semua gambar berhasil diproses!")
+            self.log_box.append_log("[INFO] 🎉 Sempurna! Semua gambar berhasil diproses!")
         elif stats["success"] > 0:
-            self.log_box.append_log(f"[INFO] ⚠️  {stats['failed']} gambar gagal diproses")
-        self.log_box.append_log("="*50 + "\n")
+            percentage = int((stats["success"] / total) * 100)
+            self.log_box.append_log(f"[INFO] ⚠️  {percentage}% Berhasil | {stats['failed']} gambar gagal diproses")
+        self.log_box.append_log("━"*60 + "\n")
     
     def clear_logs(self):
         """Clear log content."""
