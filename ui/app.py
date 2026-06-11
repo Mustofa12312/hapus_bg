@@ -143,11 +143,17 @@ class App(TkDnDWrapper):
             
         self.start_btn.configure(state="disabled")
         self.select_btn.configure(state="disabled")
+        self.cancel_btn.configure(state="normal")
         self.open_folder_btn.configure(state="disabled")
         self.progress_bar.set(0)
         self.progress_label.configure(text="0%")
         
         self.processor.start(self.selected_folder)
+    
+    def cancel_process(self):
+        """Cancel the ongoing process."""
+        self.processor.stop()
+        self.cancel_btn.configure(state="disabled")
         
     def update_progress(self, val):
         # Must run in main thread
@@ -165,8 +171,24 @@ class App(TkDnDWrapper):
     def _on_process_complete_ui(self):
         self.start_btn.configure(state="normal")
         self.select_btn.configure(state="normal")
+        self.cancel_btn.configure(state="disabled")
         self.open_folder_btn.configure(state="normal")
-        self.log_box.append_log("[INFO] Selesai memproses semua gambar!")
+        
+        # Show summary
+        stats = self.processor.stats
+        total = stats["success"] + stats["failed"]
+        self.log_box.append_log("\n" + "="*50)
+        self.log_box.append_log(f"[INFO] ✅ RINGKASAN PROSES")
+        self.log_box.append_log(f"[INFO] Total: {total} | Sukses: {stats['success']} | Gagal: {stats['failed']}")
+        if stats["success"] == total:
+            self.log_box.append_log("[INFO] 🎉 Semua gambar berhasil diproses!")
+        elif stats["success"] > 0:
+            self.log_box.append_log(f"[INFO] ⚠️  {stats['failed']} gambar gagal diproses")
+        self.log_box.append_log("="*50 + "\n")
+    
+    def clear_logs(self):
+        """Clear log content."""
+        self.log_box.clear_log()
         
     def open_output_folder(self):
         if self.selected_folder:
