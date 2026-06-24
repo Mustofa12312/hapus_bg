@@ -46,7 +46,7 @@ def validate_image_file(file_path: str) -> tuple[bool, str]:
         try:
             with Image.open(file_path) as img:
                 # Check image format
-                if img.format and img.format.lower() not in ['png', 'jpeg', 'jpg']:
+                if img.format and img.format.lower() not in ['png', 'jpeg', 'jpg', 'mpo']:
                     return False, f"Format PIL tidak didukung: {img.format}"
                 # Try to verify image integrity
                 img.verify()

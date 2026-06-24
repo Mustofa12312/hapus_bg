@@ -53,7 +53,7 @@ def remove_background(input_path: str, output_path: str) -> tuple[bool, str]:
             return False, error_msg
         
         # Validate image format
-        if input_image.format and input_image.format.upper() not in ['PNG', 'JPEG', 'JPG']:
+        if input_image.format and input_image.format.upper() not in ['PNG', 'JPEG', 'JPG', 'MPO']:
             error_msg = f"Format gambar tidak didukung: {input_image.format}"
             logger.error(f"Failed to process {input_path}: {error_msg}")
             return False, error_msg
