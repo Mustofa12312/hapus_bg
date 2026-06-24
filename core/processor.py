@@ -153,11 +153,21 @@ class BatchProcessor:
                     if success:
                         self.stats["success"] += 1
                         logger.info(f"✅ Success: {os.path.basename(file_path)}")
+                        # Tambahkan jeda untuk API agar tidak terkena limit rate
+                        if mode == "api" and i < total_files - 1:
+                            time.sleep(1.2)
                         break
                     elif attempt < RETRY_ATTEMPTS:
                         self.stats["retried"] += 1
-                        logger.warning(f"⚠️  Attempt {attempt}/{RETRY_ATTEMPTS} failed. Retrying...")
-                        time.sleep(1)  # Brief delay before retry
+                        
+                        if "429" in error_msg or "Rate limit" in error_msg:
+                            delay = 10
+                            logger.warning(f"⚠️  Rate limit tercapai. Menunggu {delay} detik...")
+                        else:
+                            delay = 1
+                            logger.warning(f"⚠️  Attempt {attempt}/{RETRY_ATTEMPTS} failed. Retrying...")
+                            
+                        time.sleep(delay)
                     else:
                         logger.error(f"❌ Failed after {RETRY_ATTEMPTS} attempts: {os.path.basename(file_path)}")
                 
