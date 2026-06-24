@@ -1,0 +1,4 @@
+2026-06-24 21:25:05 - [INFO] - scan_for_images:70 - Scanning folder: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI
+2026-06-24 21:25:05 - [ERROR] - scan_for_images:102 - Error during folder scan: endswith first arg must be str or a tuple of str, not set
+2026-06-24 21:25:40 - [INFO] - scan_for_images:70 - Scanning folder: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI
+2026-06-24 21:25:40 - [ERROR] - scan_for_images:102 - Error during folder scan: endswith first arg must be str or a tuple of str, not set

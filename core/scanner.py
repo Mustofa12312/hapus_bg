@@ -76,7 +76,7 @@ def scan_for_images(folder_path: str, validate: bool = True) -> list[str]:
     try:
         for root, _, files in os.walk(folder_path):
             for file in files:
-                if file.lower().endswith(SUPPORTED_FORMATS):
+                if file.lower().endswith(tuple(SUPPORTED_FORMATS)):
                     file_path = os.path.join(root, file)
                     
                     if validate:
