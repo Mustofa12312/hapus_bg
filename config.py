@@ -39,3 +39,16 @@ FILE_MAGIC_BYTES = {
 
 # Create logs directory if it doesn't exist
 LOG_DIR.mkdir(exist_ok=True)
+
+# API Configuration
+def get_removebg_api_key():
+    api_file = Path(__file__).parent / "api_remove_bk.md"
+    if api_file.exists():
+        try:
+            with open(api_file, 'r') as f:
+                return f.read().strip()
+        except Exception:
+            pass
+    return ""
+
+REMOVEBG_API_KEY = get_removebg_api_key()

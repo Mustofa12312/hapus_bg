@@ -28,6 +28,7 @@ class App(TkDnDWrapper):
         
         self.selected_folder = None
         self.processor = BatchProcessor(self.update_progress, self.on_process_complete)
+        self.removal_mode = ctk.StringVar(value="Local AI (Offline)")
         
         # Set main background color
         self.configure(fg_color="#0f0f0f")
@@ -146,7 +147,17 @@ class App(TkDnDWrapper):
             font=ctk.CTkFont(size=12, weight="bold"),
             text_color="#00d4ff"
         )
-        process_label.grid(row=0, column=0, columnspan=4, pady=(10, 8), padx=20, sticky="w")
+        process_label.grid(row=0, column=0, pady=(10, 8), padx=20, sticky="w")
+        
+        self.mode_selector = ctk.CTkSegmentedButton(
+            control_frame,
+            values=["Local AI (Offline)", "Remove.bg API (Online)"],
+            variable=self.removal_mode,
+            font=ctk.CTkFont(size=11, weight="bold"),
+            selected_color="#0084d4",
+            selected_hover_color="#0066b3"
+        )
+        self.mode_selector.grid(row=0, column=1, columnspan=3, pady=(10, 8), padx=20, sticky="e")
         
         self.start_btn = ctk.CTkButton(
             control_frame, 
@@ -315,8 +326,10 @@ class App(TkDnDWrapper):
         self.progress_bar.set(0)
         self.progress_label.configure(text="0%")
         
-        self.log_box.append_log("[INFO] Memulai proses... (lihat log file untuk detail)")
-        self.processor.start(self.selected_folder)
+        mode_val = self.removal_mode.get()
+        mode = "api" if mode_val == "Remove.bg API (Online)" else "local"
+        self.log_box.append_log(f"[INFO] Memulai proses dengan mode: {mode_val}...")
+        self.processor.start(self.selected_folder, mode=mode)
     
     def cancel_process(self):
         """Cancel the ongoing process."""

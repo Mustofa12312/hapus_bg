@@ -1,0 +1,198 @@
+2026-06-24 21:30:55 - [INFO] - scan_for_images:70 - Scanning folder: /home/mustofa/Documents/tamjid
+2026-06-24 21:30:55 - [INFO] - scan_for_images:92 - Found 34 valid image files.
+2026-06-24 21:30:58 - [INFO] - _process_worker:60 - ============================================================
+2026-06-24 21:30:58 - [INFO] - _process_worker:61 - 🚀 Starting batch process...
+2026-06-24 21:30:58 - [INFO] - _process_worker:62 - ============================================================
+2026-06-24 21:30:58 - [INFO] - _process_worker:66 - 📋 Phase 1: Validating input folder...
+2026-06-24 21:30:58 - [INFO] - _process_worker:72 - ✅ Input folder valid: /home/mustofa/Documents/tamjid
+2026-06-24 21:30:58 - [INFO] - _process_worker:75 - 📋 Phase 2: Scanning for images...
+2026-06-24 21:30:58 - [INFO] - scan_for_images:70 - Scanning folder: /home/mustofa/Documents/tamjid
+2026-06-24 21:30:58 - [INFO] - scan_for_images:92 - Found 34 valid image files.
+2026-06-24 21:30:58 - [INFO] - _process_worker:84 - ✅ Found 34 images to process
+2026-06-24 21:30:58 - [INFO] - _process_worker:94 - 📋 Phase 3: Validating output folder...
+2026-06-24 21:30:58 - [INFO] - _process_worker:99 - ✅ Output folder valid: /home/mustofa/Documents/tamjid_output
+2026-06-24 21:30:58 - [WARNING] - get_available_disk_space:138 - Could not get disk space info: [Errno 2] No such file or directory: '/home/mustofa/Documents/tamjid_output'
+2026-06-24 21:30:58 - [WARNING] - _process_worker:104 - ⚠️  Low disk space: 0.0MB available
+2026-06-24 21:30:58 - [INFO] - _process_worker:109 - 📋 Phase 4: Processing images...
+2026-06-24 21:30:58 - [INFO] - _process_worker:110 - Starting to process 34 files...
+2026-06-24 21:30:58 - [INFO] - _process_worker:146 - [1/34] Processing: MP_04535.JPG
+2026-06-24 21:30:58 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04535.JPG (8.4MB)
+2026-06-24 21:31:13 - [DEBUG] - remove_background:87 - Background removed in 14.67s
+2026-06-24 21:31:16 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04535.png (total: 18.28s)
+2026-06-24 21:31:16 - [INFO] - _process_worker:151 - ✅ Success: MP_04535.JPG
+2026-06-24 21:31:17 - [INFO] - _process_worker:146 - [2/34] Processing: MP_04570.JPG
+2026-06-24 21:31:17 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04570.JPG (7.2MB)
+2026-06-24 21:31:31 - [DEBUG] - remove_background:87 - Background removed in 14.62s
+2026-06-24 21:31:34 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04570.png (total: 17.56s)
+2026-06-24 21:31:34 - [INFO] - _process_worker:151 - ✅ Success: MP_04570.JPG
+2026-06-24 21:31:34 - [INFO] - _process_worker:146 - [3/34] Processing: MP_04564.JPG
+2026-06-24 21:31:34 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04564.JPG (7.8MB)
+2026-06-24 21:31:46 - [DEBUG] - remove_background:87 - Background removed in 11.71s
+2026-06-24 21:31:49 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04564.png (total: 14.73s)
+2026-06-24 21:31:49 - [INFO] - _process_worker:151 - ✅ Success: MP_04564.JPG
+2026-06-24 21:31:49 - [INFO] - _process_worker:146 - [4/34] Processing: MP_04549.JPG
+2026-06-24 21:31:49 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04549.JPG (9.3MB)
+2026-06-24 21:32:00 - [DEBUG] - remove_background:87 - Background removed in 10.80s
+2026-06-24 21:32:04 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04549.png (total: 14.70s)
+2026-06-24 21:32:04 - [INFO] - _process_worker:151 - ✅ Success: MP_04549.JPG
+2026-06-24 21:32:04 - [INFO] - _process_worker:146 - [5/34] Processing: MP_04542.JPG
+2026-06-24 21:32:04 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04542.JPG (9.2MB)
+2026-06-24 21:32:15 - [DEBUG] - remove_background:87 - Background removed in 11.57s
+2026-06-24 21:32:19 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04542.png (total: 15.37s)
+2026-06-24 21:32:19 - [INFO] - _process_worker:151 - ✅ Success: MP_04542.JPG
+2026-06-24 21:32:19 - [INFO] - _process_worker:146 - [6/34] Processing: MP_04540.JPG
+2026-06-24 21:32:19 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04540.JPG (8.2MB)
+2026-06-24 21:32:28 - [DEBUG] - remove_background:87 - Background removed in 9.44s
+2026-06-24 21:32:32 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04540.png (total: 12.61s)
+2026-06-24 21:32:32 - [INFO] - _process_worker:151 - ✅ Success: MP_04540.JPG
+2026-06-24 21:32:32 - [INFO] - _process_worker:146 - [7/34] Processing: MP_04572.JPG
+2026-06-24 21:32:32 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04572.JPG (7.8MB)
+2026-06-24 21:32:41 - [DEBUG] - remove_background:87 - Background removed in 9.38s
+2026-06-24 21:32:44 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04572.png (total: 12.53s)
+2026-06-24 21:32:44 - [INFO] - _process_worker:151 - ✅ Success: MP_04572.JPG
+2026-06-24 21:32:44 - [INFO] - _process_worker:146 - [8/34] Processing: MP_04543.JPG
+2026-06-24 21:32:44 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04543.JPG (8.5MB)
+2026-06-24 21:32:53 - [DEBUG] - remove_background:87 - Background removed in 9.24s
+2026-06-24 21:32:57 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04543.png (total: 12.69s)
+2026-06-24 21:32:57 - [INFO] - _process_worker:151 - ✅ Success: MP_04543.JPG
+2026-06-24 21:32:57 - [INFO] - _process_worker:146 - [9/34] Processing: MP_04566.JPG
+2026-06-24 21:32:57 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04566.JPG (7.7MB)
+2026-06-24 21:33:06 - [DEBUG] - remove_background:87 - Background removed in 9.46s
+2026-06-24 21:33:10 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04566.png (total: 12.84s)
+2026-06-24 21:33:10 - [INFO] - _process_worker:151 - ✅ Success: MP_04566.JPG
+2026-06-24 21:33:10 - [INFO] - _process_worker:146 - [10/34] Processing: MP_04539.JPG
+2026-06-24 21:33:10 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04539.JPG (10.1MB)
+2026-06-24 21:33:19 - [DEBUG] - remove_background:87 - Background removed in 9.52s
+2026-06-24 21:33:24 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04539.png (total: 14.09s)
+2026-06-24 21:33:24 - [INFO] - _process_worker:151 - ✅ Success: MP_04539.JPG
+2026-06-24 21:33:24 - [INFO] - _process_worker:146 - [11/34] Processing: MP_04555.JPG
+2026-06-24 21:33:24 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04555.JPG (10.5MB)
+2026-06-24 21:33:33 - [DEBUG] - remove_background:87 - Background removed in 9.43s
+2026-06-24 21:33:37 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04555.png (total: 13.72s)
+2026-06-24 21:33:37 - [INFO] - _process_worker:151 - ✅ Success: MP_04555.JPG
+2026-06-24 21:33:37 - [INFO] - _process_worker:146 - [12/34] Processing: MP_04554.JPG
+2026-06-24 21:33:37 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04554.JPG (9.6MB)
+2026-06-24 21:33:47 - [DEBUG] - remove_background:87 - Background removed in 9.85s
+2026-06-24 21:33:51 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04554.png (total: 13.89s)
+2026-06-24 21:33:51 - [INFO] - _process_worker:151 - ✅ Success: MP_04554.JPG
+2026-06-24 21:33:51 - [INFO] - _process_worker:146 - [13/34] Processing: MP_04544.JPG
+2026-06-24 21:33:51 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04544.JPG (9.0MB)
+2026-06-24 21:34:01 - [DEBUG] - remove_background:87 - Background removed in 9.90s
+2026-06-24 21:34:05 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04544.png (total: 14.09s)
+2026-06-24 21:34:05 - [INFO] - _process_worker:151 - ✅ Success: MP_04544.JPG
+2026-06-24 21:34:05 - [INFO] - _process_worker:146 - [14/34] Processing: MP_04551.JPG
+2026-06-24 21:34:05 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04551.JPG (10.9MB)
+2026-06-24 21:34:15 - [DEBUG] - remove_background:87 - Background removed in 9.67s
+2026-06-24 21:34:19 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04551.png (total: 13.98s)
+2026-06-24 21:34:19 - [INFO] - _process_worker:151 - ✅ Success: MP_04551.JPG
+2026-06-24 21:34:19 - [INFO] - _process_worker:146 - [15/34] Processing: MP_04536.JPG
+2026-06-24 21:34:19 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04536.JPG (8.9MB)
+2026-06-24 21:34:29 - [DEBUG] - remove_background:87 - Background removed in 9.17s
+2026-06-24 21:34:33 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04536.png (total: 13.35s)
+2026-06-24 21:34:33 - [INFO] - _process_worker:151 - ✅ Success: MP_04536.JPG
+2026-06-24 21:34:33 - [INFO] - _process_worker:146 - [16/34] Processing: MP_04573.JPG
+2026-06-24 21:34:33 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04573.JPG (8.1MB)
+2026-06-24 21:34:43 - [DEBUG] - remove_background:87 - Background removed in 10.45s
+2026-06-24 21:34:46 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04573.png (total: 13.63s)
+2026-06-24 21:34:46 - [INFO] - _process_worker:151 - ✅ Success: MP_04573.JPG
+2026-06-24 21:34:46 - [INFO] - _process_worker:146 - [17/34] Processing: MP_04547.JPG
+2026-06-24 21:34:46 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04547.JPG (9.9MB)
+2026-06-24 21:34:56 - [DEBUG] - remove_background:87 - Background removed in 9.29s
+2026-06-24 21:35:00 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04547.png (total: 13.66s)
+2026-06-24 21:35:00 - [INFO] - _process_worker:151 - ✅ Success: MP_04547.JPG
+2026-06-24 21:35:00 - [INFO] - _process_worker:146 - [18/34] Processing: MP_04556.JPG
+2026-06-24 21:35:00 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04556.JPG (10.8MB)
+2026-06-24 21:35:09 - [DEBUG] - remove_background:87 - Background removed in 9.21s
+2026-06-24 21:35:14 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04556.png (total: 13.79s)
+2026-06-24 21:35:14 - [INFO] - _process_worker:151 - ✅ Success: MP_04556.JPG
+2026-06-24 21:35:14 - [INFO] - _process_worker:146 - [19/34] Processing: MP_04553.JPG
+2026-06-24 21:35:14 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04553.JPG (8.9MB)
+2026-06-24 21:35:23 - [DEBUG] - remove_background:87 - Background removed in 9.16s
+2026-06-24 21:35:27 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04553.png (total: 12.82s)
+2026-06-24 21:35:27 - [INFO] - _process_worker:151 - ✅ Success: MP_04553.JPG
+2026-06-24 21:35:27 - [INFO] - _process_worker:146 - [20/34] Processing: MP_04561.JPG
+2026-06-24 21:35:27 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04561.JPG (7.8MB)
+2026-06-24 21:35:36 - [DEBUG] - remove_background:87 - Background removed in 9.21s
+2026-06-24 21:35:39 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04561.png (total: 12.20s)
+2026-06-24 21:35:39 - [INFO] - _process_worker:151 - ✅ Success: MP_04561.JPG
+2026-06-24 21:35:39 - [INFO] - _process_worker:146 - [21/34] Processing: MP_04563.JPG
+2026-06-24 21:35:39 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04563.JPG (7.6MB)
+2026-06-24 21:35:48 - [DEBUG] - remove_background:87 - Background removed in 9.04s
+2026-06-24 21:35:51 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04563.png (total: 11.95s)
+2026-06-24 21:35:51 - [INFO] - _process_worker:151 - ✅ Success: MP_04563.JPG
+2026-06-24 21:35:51 - [INFO] - _process_worker:146 - [22/34] Processing: MP_04552.JPG
+2026-06-24 21:35:51 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04552.JPG (8.3MB)
+2026-06-24 21:36:00 - [DEBUG] - remove_background:87 - Background removed in 8.88s
+2026-06-24 21:36:03 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04552.png (total: 12.26s)
+2026-06-24 21:36:03 - [INFO] - _process_worker:151 - ✅ Success: MP_04552.JPG
+2026-06-24 21:36:03 - [INFO] - _process_worker:146 - [23/34] Processing: MP_04560.JPG
+2026-06-24 21:36:03 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04560.JPG (7.1MB)
+2026-06-24 21:36:13 - [DEBUG] - remove_background:87 - Background removed in 9.84s
+2026-06-24 21:36:16 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04560.png (total: 12.70s)
+2026-06-24 21:36:16 - [INFO] - _process_worker:151 - ✅ Success: MP_04560.JPG
+2026-06-24 21:36:16 - [INFO] - _process_worker:146 - [24/34] Processing: MP_04562.JPG
+2026-06-24 21:36:16 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04562.JPG (7.9MB)
+2026-06-24 21:36:25 - [DEBUG] - remove_background:87 - Background removed in 9.02s
+2026-06-24 21:36:28 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04562.png (total: 12.16s)
+2026-06-24 21:36:28 - [INFO] - _process_worker:151 - ✅ Success: MP_04562.JPG
+2026-06-24 21:36:28 - [INFO] - _process_worker:146 - [25/34] Processing: MP_04558.JPG
+2026-06-24 21:36:28 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04558.JPG (8.0MB)
+2026-06-24 21:36:37 - [DEBUG] - remove_background:87 - Background removed in 9.01s
+2026-06-24 21:36:40 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04558.png (total: 12.27s)
+2026-06-24 21:36:40 - [INFO] - _process_worker:151 - ✅ Success: MP_04558.JPG
+2026-06-24 21:36:40 - [INFO] - _process_worker:146 - [26/34] Processing: MP_04569.JPG
+2026-06-24 21:36:40 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04569.JPG (7.3MB)
+2026-06-24 21:36:49 - [DEBUG] - remove_background:87 - Background removed in 9.15s
+2026-06-24 21:36:52 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04569.png (total: 12.24s)
+2026-06-24 21:36:52 - [INFO] - _process_worker:151 - ✅ Success: MP_04569.JPG
+2026-06-24 21:36:52 - [INFO] - _process_worker:146 - [27/34] Processing: MP_04567.JPG
+2026-06-24 21:36:52 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04567.JPG (8.2MB)
+2026-06-24 21:37:02 - [DEBUG] - remove_background:87 - Background removed in 9.28s
+2026-06-24 21:37:05 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04567.png (total: 12.25s)
+2026-06-24 21:37:05 - [INFO] - _process_worker:151 - ✅ Success: MP_04567.JPG
+2026-06-24 21:37:05 - [INFO] - _process_worker:146 - [28/34] Processing: MP_04571.JPG
+2026-06-24 21:37:05 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04571.JPG (7.9MB)
+2026-06-24 21:37:14 - [DEBUG] - remove_background:87 - Background removed in 9.01s
+2026-06-24 21:37:16 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04571.png (total: 11.60s)
+2026-06-24 21:37:16 - [INFO] - _process_worker:151 - ✅ Success: MP_04571.JPG
+2026-06-24 21:37:16 - [INFO] - _process_worker:146 - [29/34] Processing: MP_04546.JPG
+2026-06-24 21:37:16 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04546.JPG (8.9MB)
+2026-06-24 21:37:25 - [DEBUG] - remove_background:87 - Background removed in 9.07s
+2026-06-24 21:37:29 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04546.png (total: 12.74s)
+2026-06-24 21:37:29 - [INFO] - _process_worker:151 - ✅ Success: MP_04546.JPG
+2026-06-24 21:37:29 - [INFO] - _process_worker:146 - [30/34] Processing: MP_04550.JPG
+2026-06-24 21:37:29 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04550.JPG (9.2MB)
+2026-06-24 21:37:39 - [DEBUG] - remove_background:87 - Background removed in 9.41s
+2026-06-24 21:37:43 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04550.png (total: 13.51s)
+2026-06-24 21:37:43 - [INFO] - _process_worker:151 - ✅ Success: MP_04550.JPG
+2026-06-24 21:37:43 - [INFO] - _process_worker:146 - [31/34] Processing: MP_04565.JPG
+2026-06-24 21:37:43 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04565.JPG (8.0MB)
+2026-06-24 21:37:52 - [DEBUG] - remove_background:87 - Background removed in 9.25s
+2026-06-24 21:37:55 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04565.png (total: 12.20s)
+2026-06-24 21:37:55 - [INFO] - _process_worker:151 - ✅ Success: MP_04565.JPG
+2026-06-24 21:37:55 - [INFO] - _process_worker:146 - [32/34] Processing: MP_04548.JPG
+2026-06-24 21:37:55 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04548.JPG (8.9MB)
+2026-06-24 21:38:04 - [DEBUG] - remove_background:87 - Background removed in 9.13s
+2026-06-24 21:38:08 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04548.png (total: 13.11s)
+2026-06-24 21:38:08 - [INFO] - _process_worker:151 - ✅ Success: MP_04548.JPG
+2026-06-24 21:38:08 - [INFO] - _process_worker:146 - [33/34] Processing: MP_04545.JPG
+2026-06-24 21:38:08 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04545.JPG (9.6MB)
+2026-06-24 21:38:17 - [DEBUG] - remove_background:87 - Background removed in 8.82s
+2026-06-24 21:38:21 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04545.png (total: 12.58s)
+2026-06-24 21:38:21 - [INFO] - _process_worker:151 - ✅ Success: MP_04545.JPG
+2026-06-24 21:38:21 - [INFO] - _process_worker:146 - [34/34] Processing: MP_04557.JPG
+2026-06-24 21:38:21 - [DEBUG] - remove_background:40 - Processing file: /home/mustofa/Documents/tamjid/1. ASRAMA IMAM GHAZALI/MP_04557.JPG (9.7MB)
+2026-06-24 21:38:29 - [DEBUG] - remove_background:87 - Background removed in 8.80s
+2026-06-24 21:38:33 - [DEBUG] - remove_background:121 - Successfully saved: /home/mustofa/Documents/tamjid_output/1. ASRAMA IMAM GHAZALI/MP_04557.png (total: 12.73s)
+2026-06-24 21:38:33 - [INFO] - _process_worker:151 - ✅ Success: MP_04557.JPG
+2026-06-24 21:38:33 - [INFO] - _process_worker:170 - 
+============================================================
+2026-06-24 21:38:33 - [INFO] - _process_worker:171 - ✅ BATCH PROCESS COMPLETED
+2026-06-24 21:38:33 - [INFO] - _process_worker:172 - ============================================================
+2026-06-24 21:38:33 - [INFO] - _log_summary:187 - 📊 Processing Summary:
+2026-06-24 21:38:33 - [INFO] - _log_summary:188 -    ✅ Success: 34/34 (100.0%)
+2026-06-24 21:38:33 - [INFO] - _log_summary:189 -    ❌ Failed: 0
+2026-06-24 21:38:33 - [INFO] - _log_summary:190 -    🔄 Retries: 0
+2026-06-24 21:38:33 - [INFO] - _log_summary:191 -    ⏱️  Total time: 455.0s
+2026-06-24 21:38:33 - [INFO] - _log_summary:195 -    ⏱️  Average per file: 13.38s
+2026-06-24 21:38:33 - [INFO] - _log_summary:204 - ============================================================

@@ -1,0 +1,2 @@
+2026-06-24 21:30:58 - [WARNING] - get_available_disk_space:138 - Could not get disk space info: [Errno 2] No such file or directory: '/home/mustofa/Documents/tamjid_output'
+2026-06-24 21:30:58 - [WARNING] - _process_worker:104 - ⚠️  Low disk space: 0.0MB available

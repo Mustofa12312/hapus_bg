@@ -4,6 +4,7 @@ import os
 import psutil
 from core.scanner import scan_for_images
 from core.remover import remove_background
+from core.api_remover import remove_background_api
 from utils.paths import get_output_folder, recreate_dir_structure, validate_input_folder, validate_output_folder, get_available_disk_space
 from utils.logger import logger
 from config import BATCH_SIZE_WARNING, MIN_FREE_DISK_SPACE_MB, RETRY_ATTEMPTS, MAX_RAM_USAGE_PERCENT
@@ -23,7 +24,7 @@ class BatchProcessor:
         }
         self.failed_files = []  # Track failed files for reporting
         
-    def start(self, input_folder: str):
+    def start(self, input_folder: str, mode: str = "local"):
         """Start batch processing with validation."""
         if self.is_processing:
             logger.error("Processing already in progress.")
@@ -33,7 +34,7 @@ class BatchProcessor:
         self.should_stop = False
         self.stats = {"success": 0, "failed": 0, "skipped": 0, "retried": 0, "total": 0}
         self.failed_files = []
-        thread = threading.Thread(target=self._process_worker, args=(input_folder,))
+        thread = threading.Thread(target=self._process_worker, args=(input_folder, mode))
         thread.daemon = True
         thread.start()
     
@@ -55,7 +56,7 @@ class BatchProcessor:
             logger.warning(f"Could not check system resources: {e}")
             return True, ""  # Don't fail if we can't check
     
-    def _process_worker(self, input_folder: str):
+    def _process_worker(self, input_folder: str, mode: str):
         """Main processing worker thread."""
         logger.info("=" * 60)
         logger.info("🚀 Starting batch process...")
@@ -144,7 +145,10 @@ class BatchProcessor:
                         break
                     
                     logger.info(f"[{i+1}/{total_files}] Processing: {os.path.basename(file_path)}")
-                    success, error_msg = remove_background(file_path, out_file_path)
+                    if mode == "api":
+                        success, error_msg = remove_background_api(file_path, out_file_path)
+                    else:
+                        success, error_msg = remove_background(file_path, out_file_path)
                     
                     if success:
                         self.stats["success"] += 1
