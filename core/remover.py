@@ -70,7 +70,15 @@ def remove_background(input_path: str, output_path: str) -> tuple[bool, str]:
         
         # Remove background with timeout check
         try:
-            output_image = remove(input_image)
+            # Menggunakan alpha matting dan post process mask untuk hasil yang lebih halus
+            output_image = remove(
+                input_image,
+                alpha_matting=True,
+                alpha_matting_foreground_threshold=240,
+                alpha_matting_background_threshold=10,
+                alpha_matting_erode_size=10,
+                post_process_mask=True
+            )
             elapsed = time.time() - start_time
             if elapsed > PROCESS_TIMEOUT_SECONDS:
                 error_msg = f"Processing timeout ({elapsed:.1f}s > {PROCESS_TIMEOUT_SECONDS}s)"
