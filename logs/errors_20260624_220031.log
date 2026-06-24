@@ -1,0 +1,36 @@
+2026-06-24 22:01:27 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04492.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:01:27 - [WARNING] - _process_worker:165 - ⚠️  Rate limit tercapai. Menunggu 10 detik...
+2026-06-24 22:01:47 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04492.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:01:47 - [ERROR] - _process_worker:172 - ❌ Failed after 2 attempts: MP_04492.JPG
+2026-06-24 22:01:57 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04532.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:01:57 - [WARNING] - _process_worker:165 - ⚠️  Rate limit tercapai. Menunggu 10 detik...
+2026-06-24 22:02:46 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04516.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:02:46 - [WARNING] - _process_worker:165 - ⚠️  Rate limit tercapai. Menunggu 10 detik...
+2026-06-24 22:03:09 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04516.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:03:09 - [ERROR] - _process_worker:172 - ❌ Failed after 2 attempts: MP_04516.JPG
+2026-06-24 22:03:18 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04511.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:03:18 - [WARNING] - _process_worker:165 - ⚠️  Rate limit tercapai. Menunggu 10 detik...
+2026-06-24 22:04:02 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04522.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:04:02 - [WARNING] - _process_worker:165 - ⚠️  Rate limit tercapai. Menunggu 10 detik...
+2026-06-24 22:04:22 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04522.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:04:22 - [ERROR] - _process_worker:172 - ❌ Failed after 2 attempts: MP_04522.JPG
+2026-06-24 22:04:33 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04527.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:04:33 - [WARNING] - _process_worker:165 - ⚠️  Rate limit tercapai. Menunggu 10 detik...
+2026-06-24 22:05:20 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04496.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:05:20 - [WARNING] - _process_worker:165 - ⚠️  Rate limit tercapai. Menunggu 10 detik...
+2026-06-24 22:05:39 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04496.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:05:39 - [ERROR] - _process_worker:172 - ❌ Failed after 2 attempts: MP_04496.JPG
+2026-06-24 22:05:48 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04510.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:05:48 - [WARNING] - _process_worker:165 - ⚠️  Rate limit tercapai. Menunggu 10 detik...
+2026-06-24 22:06:31 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04495.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:06:31 - [WARNING] - _process_worker:165 - ⚠️  Rate limit tercapai. Menunggu 10 detik...
+2026-06-24 22:06:50 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04495.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:06:50 - [ERROR] - _process_worker:172 - ❌ Failed after 2 attempts: MP_04495.JPG
+2026-06-24 22:06:50 - [WARNING] - _process_worker:118 - ⏹️  Process stopped by user.
+2026-06-24 22:06:50 - [WARNING] - _log_summary:212 - 
+❌ Failed files (5):
+2026-06-24 22:06:50 - [WARNING] - _log_summary:214 -    - MP_04492.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:06:50 - [WARNING] - _log_summary:214 -    - MP_04516.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:06:50 - [WARNING] - _log_summary:214 -    - MP_04522.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:06:50 - [WARNING] - _log_summary:214 -    - MP_04496.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 22:06:50 - [WARNING] - _log_summary:214 -    - MP_04495.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
