@@ -365,3 +365,71 @@
 2026-06-24 22:31:19 - [INFO] - _log_summary:205 -    ⏱️  Total time: 937.2s
 2026-06-24 22:31:19 - [INFO] - _log_summary:209 -    ⏱️  Average per file: 13.78s
 2026-06-24 22:31:19 - [INFO] - _log_summary:218 - ============================================================
+2026-06-24 23:00:01 - [INFO] - scan_for_images:70 - Scanning folder: /home/mustofa/Documents/tamjid
+2026-06-24 23:00:01 - [INFO] - scan_for_images:92 - Found 20 valid image files.
+2026-06-24 23:00:05 - [INFO] - _process_worker:61 - ============================================================
+2026-06-24 23:00:05 - [INFO] - _process_worker:62 - 🚀 Starting batch process...
+2026-06-24 23:00:05 - [INFO] - _process_worker:63 - ============================================================
+2026-06-24 23:00:05 - [INFO] - _process_worker:67 - 📋 Phase 1: Validating input folder...
+2026-06-24 23:00:05 - [INFO] - _process_worker:73 - ✅ Input folder valid: /home/mustofa/Documents/tamjid
+2026-06-24 23:00:05 - [INFO] - _process_worker:76 - 📋 Phase 2: Scanning for images...
+2026-06-24 23:00:05 - [INFO] - scan_for_images:70 - Scanning folder: /home/mustofa/Documents/tamjid
+2026-06-24 23:00:05 - [INFO] - scan_for_images:92 - Found 20 valid image files.
+2026-06-24 23:00:05 - [INFO] - _process_worker:85 - ✅ Found 20 images to process
+2026-06-24 23:00:05 - [INFO] - _process_worker:95 - 📋 Phase 3: Validating output folder...
+2026-06-24 23:00:05 - [INFO] - _process_worker:100 - ✅ Output folder valid: /home/mustofa/Documents/tamjid_output
+2026-06-24 23:00:05 - [INFO] - _process_worker:107 - ✅ Disk space OK: 360640.9MB available
+2026-06-24 23:00:05 - [INFO] - _process_worker:110 - 📋 Phase 4: Processing images...
+2026-06-24 23:00:05 - [INFO] - _process_worker:111 - Starting to process 20 files...
+2026-06-24 23:00:05 - [INFO] - _process_worker:147 - [1/20] Processing: MP107733.JPG
+2026-06-24 23:00:05 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107733.JPG (3.2MB)
+2026-06-24 23:00:17 - [DEBUG] - remove_background:96 - Background removed in 12.32s
+2026-06-24 23:00:20 - [DEBUG] - remove_background:130 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107733.png (total: 15.00s)
+2026-06-24 23:00:20 - [INFO] - _process_worker:155 - ✅ Success: MP107733.JPG
+2026-06-24 23:00:20 - [INFO] - _process_worker:147 - [2/20] Processing: MP107728.JPG
+2026-06-24 23:00:20 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107728.JPG (3.5MB)
+2026-06-24 23:00:31 - [DEBUG] - remove_background:96 - Background removed in 10.64s
+2026-06-24 23:00:33 - [DEBUG] - remove_background:130 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107728.png (total: 12.83s)
+2026-06-24 23:00:33 - [INFO] - _process_worker:155 - ✅ Success: MP107728.JPG
+2026-06-24 23:00:33 - [INFO] - _process_worker:147 - [3/20] Processing: MP107734.JPG
+2026-06-24 23:00:33 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107734.JPG (3.4MB)
+2026-06-24 23:00:43 - [DEBUG] - remove_background:96 - Background removed in 10.21s
+2026-06-24 23:00:46 - [DEBUG] - remove_background:130 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107734.png (total: 12.72s)
+2026-06-24 23:00:46 - [INFO] - _process_worker:155 - ✅ Success: MP107734.JPG
+2026-06-24 23:00:46 - [INFO] - _process_worker:147 - [4/20] Processing: MP107737.JPG
+2026-06-24 23:00:46 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107737.JPG (3.7MB)
+2026-06-24 23:00:55 - [DEBUG] - remove_background:96 - Background removed in 9.09s
+2026-06-24 23:00:57 - [DEBUG] - remove_background:130 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107737.png (total: 11.46s)
+2026-06-24 23:00:57 - [INFO] - _process_worker:155 - ✅ Success: MP107737.JPG
+2026-06-24 23:00:57 - [INFO] - _process_worker:147 - [5/20] Processing: MP107738.JPG
+2026-06-24 23:00:57 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107738.JPG (3.4MB)
+2026-06-24 23:01:06 - [DEBUG] - remove_background:96 - Background removed in 8.94s
+2026-06-24 23:01:09 - [DEBUG] - remove_background:130 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107738.png (total: 11.83s)
+2026-06-24 23:01:09 - [INFO] - _process_worker:155 - ✅ Success: MP107738.JPG
+2026-06-24 23:01:09 - [INFO] - _process_worker:147 - [6/20] Processing: MP107746.JPG
+2026-06-24 23:01:09 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107746.JPG (3.0MB)
+2026-06-24 23:01:18 - [DEBUG] - remove_background:96 - Background removed in 9.23s
+2026-06-24 23:01:21 - [DEBUG] - remove_background:130 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107746.png (total: 11.89s)
+2026-06-24 23:01:21 - [INFO] - _process_worker:155 - ✅ Success: MP107746.JPG
+2026-06-24 23:01:21 - [INFO] - _process_worker:147 - [7/20] Processing: MP107743.JPG
+2026-06-24 23:01:21 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107743.JPG (3.7MB)
+2026-06-24 23:01:30 - [DEBUG] - remove_background:96 - Background removed in 9.06s
+2026-06-24 23:01:33 - [DEBUG] - remove_background:130 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107743.png (total: 11.54s)
+2026-06-24 23:01:33 - [INFO] - _process_worker:155 - ✅ Success: MP107743.JPG
+2026-06-24 23:01:33 - [INFO] - _process_worker:147 - [8/20] Processing: MP107741.JPG
+2026-06-24 23:01:33 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107741.JPG (3.5MB)
+2026-06-24 23:01:42 - [DEBUG] - remove_background:96 - Background removed in 9.47s
+2026-06-24 23:01:44 - [DEBUG] - remove_background:130 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107741.png (total: 11.80s)
+2026-06-24 23:01:45 - [INFO] - _process_worker:155 - ✅ Success: MP107741.JPG
+2026-06-24 23:01:45 - [INFO] - _process_worker:147 - [9/20] Processing: MP107731.JPG
+2026-06-24 23:01:45 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107731.JPG (3.3MB)
+2026-06-24 23:01:54 - [DEBUG] - remove_background:96 - Background removed in 9.46s
+2026-06-24 23:01:56 - [DEBUG] - remove_background:130 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107731.png (total: 11.71s)
+2026-06-24 23:01:56 - [INFO] - _process_worker:155 - ✅ Success: MP107731.JPG
+2026-06-24 23:01:56 - [INFO] - _process_worker:147 - [10/20] Processing: MP107742.JPG
+2026-06-24 23:01:56 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107742.JPG (3.5MB)
+2026-06-24 23:02:06 - [DEBUG] - remove_background:96 - Background removed in 9.44s
+2026-06-24 23:02:08 - [DEBUG] - remove_background:130 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107742.png (total: 11.83s)
+2026-06-24 23:02:08 - [INFO] - _process_worker:155 - ✅ Success: MP107742.JPG
+2026-06-24 23:02:08 - [INFO] - _process_worker:147 - [11/20] Processing: MP107739.JPG
+2026-06-24 23:02:08 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107739.JPG (3.4MB)

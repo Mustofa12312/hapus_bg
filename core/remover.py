@@ -78,16 +78,22 @@ def remove_background(input_path: str, output_path: str) -> tuple[bool, str]:
         
         # Remove background with timeout check
         try:
-            # Menggunakan alpha matting dan post process mask untuk hasil yang lebih halus
+            # Menggunakan alpha matting untuk hasil halus, tapi nonaktifkan untuk gambar sangat besar (> 3MP) agar RAM tidak penuh
+            width, height = input_image.size
+            use_alpha_matting = (width * height) <= 3000000
+            
             output_image = remove(
                 input_image,
                 session=global_session,
-                alpha_matting=True,
+                alpha_matting=use_alpha_matting,
                 alpha_matting_foreground_threshold=240,
                 alpha_matting_background_threshold=10,
                 alpha_matting_erode_size=10,
                 post_process_mask=True
             )
+            
+            if not use_alpha_matting:
+                logger.debug(f"Alpha matting otomatis dimatikan untuk {os.path.basename(input_path)} karena resolusi terlalu besar ({width}x{height})")
             elapsed = time.time() - start_time
             if elapsed > PROCESS_TIMEOUT_SECONDS:
                 error_msg = f"Processing timeout ({elapsed:.1f}s > {PROCESS_TIMEOUT_SECONDS}s)"
