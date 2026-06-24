@@ -1,0 +1,90 @@
+2026-06-24 21:54:49 - [INFO] - scan_for_images:70 - Scanning folder: /home/mustofa/Documents/tamjid
+2026-06-24 21:54:50 - [INFO] - scan_for_images:92 - Found 68 valid image files.
+2026-06-24 21:54:54 - [INFO] - _process_worker:61 - ============================================================
+2026-06-24 21:54:54 - [INFO] - _process_worker:62 - 🚀 Starting batch process...
+2026-06-24 21:54:54 - [INFO] - _process_worker:63 - ============================================================
+2026-06-24 21:54:54 - [INFO] - _process_worker:67 - 📋 Phase 1: Validating input folder...
+2026-06-24 21:54:54 - [INFO] - _process_worker:73 - ✅ Input folder valid: /home/mustofa/Documents/tamjid
+2026-06-24 21:54:54 - [INFO] - _process_worker:76 - 📋 Phase 2: Scanning for images...
+2026-06-24 21:54:54 - [INFO] - scan_for_images:70 - Scanning folder: /home/mustofa/Documents/tamjid
+2026-06-24 21:54:54 - [INFO] - scan_for_images:92 - Found 68 valid image files.
+2026-06-24 21:54:54 - [INFO] - _process_worker:85 - ✅ Found 68 images to process
+2026-06-24 21:54:54 - [INFO] - _process_worker:95 - 📋 Phase 3: Validating output folder...
+2026-06-24 21:54:54 - [INFO] - _process_worker:100 - ✅ Output folder valid: /home/mustofa/Documents/tamjid_output
+2026-06-24 21:54:54 - [INFO] - _process_worker:107 - ✅ Disk space OK: 360127.4MB available
+2026-06-24 21:54:54 - [INFO] - _process_worker:110 - 📋 Phase 4: Processing images...
+2026-06-24 21:54:54 - [INFO] - _process_worker:111 - Starting to process 68 files...
+2026-06-24 21:54:54 - [INFO] - _process_worker:147 - [1/68] Processing: MP_04505.JPG
+2026-06-24 21:54:54 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04505.JPG (8.4MB)
+2026-06-24 21:55:12 - [DEBUG] - remove_background_api:56 - Successfully saved via API: /home/mustofa/Documents/tamjid_output/2. ASRAMA IMAM MALIKI/MP_04505.png (total: 17.28s)
+2026-06-24 21:55:12 - [INFO] - _process_worker:155 - ✅ Success: MP_04505.JPG
+2026-06-24 21:55:12 - [INFO] - _process_worker:147 - [2/68] Processing: MP_04493.JPG
+2026-06-24 21:55:12 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04493.JPG (8.0MB)
+2026-06-24 21:55:24 - [DEBUG] - remove_background_api:56 - Successfully saved via API: /home/mustofa/Documents/tamjid_output/2. ASRAMA IMAM MALIKI/MP_04493.png (total: 12.29s)
+2026-06-24 21:55:24 - [INFO] - _process_worker:155 - ✅ Success: MP_04493.JPG
+2026-06-24 21:55:24 - [INFO] - _process_worker:147 - [3/68] Processing: MP_04492.JPG
+2026-06-24 21:55:24 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04492.JPG (9.6MB)
+2026-06-24 21:55:34 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04492.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 21:55:34 - [WARNING] - _process_worker:159 - ⚠️  Attempt 1/2 failed. Retrying...
+2026-06-24 21:55:35 - [INFO] - _process_worker:147 - [3/68] Processing: MP_04492.JPG
+2026-06-24 21:55:35 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04492.JPG (9.6MB)
+2026-06-24 21:55:46 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04492.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 21:55:46 - [ERROR] - _process_worker:162 - ❌ Failed after 2 attempts: MP_04492.JPG
+2026-06-24 21:55:46 - [INFO] - _process_worker:147 - [4/68] Processing: MP_04532.JPG
+2026-06-24 21:55:46 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04532.JPG (9.7MB)
+2026-06-24 21:55:56 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04532.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 21:55:56 - [WARNING] - _process_worker:159 - ⚠️  Attempt 1/2 failed. Retrying...
+2026-06-24 21:55:57 - [INFO] - _process_worker:147 - [4/68] Processing: MP_04532.JPG
+2026-06-24 21:55:57 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04532.JPG (9.7MB)
+2026-06-24 21:56:10 - [DEBUG] - remove_background_api:56 - Successfully saved via API: /home/mustofa/Documents/tamjid_output/2. ASRAMA IMAM MALIKI/MP_04532.png (total: 12.97s)
+2026-06-24 21:56:10 - [INFO] - _process_worker:155 - ✅ Success: MP_04532.JPG
+2026-06-24 21:56:10 - [INFO] - _process_worker:147 - [5/68] Processing: MP_04502.JPG
+2026-06-24 21:56:10 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04502.JPG (8.9MB)
+2026-06-24 21:56:22 - [DEBUG] - remove_background_api:56 - Successfully saved via API: /home/mustofa/Documents/tamjid_output/2. ASRAMA IMAM MALIKI/MP_04502.png (total: 11.87s)
+2026-06-24 21:56:22 - [INFO] - _process_worker:155 - ✅ Success: MP_04502.JPG
+2026-06-24 21:56:22 - [INFO] - _process_worker:147 - [6/68] Processing: MP_04516.JPG
+2026-06-24 21:56:22 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04516.JPG (9.4MB)
+2026-06-24 21:56:32 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04516.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 21:56:32 - [WARNING] - _process_worker:159 - ⚠️  Attempt 1/2 failed. Retrying...
+2026-06-24 21:56:33 - [INFO] - _process_worker:147 - [6/68] Processing: MP_04516.JPG
+2026-06-24 21:56:33 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04516.JPG (9.4MB)
+2026-06-24 21:56:43 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04516.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 21:56:43 - [ERROR] - _process_worker:162 - ❌ Failed after 2 attempts: MP_04516.JPG
+2026-06-24 21:56:43 - [INFO] - _process_worker:147 - [7/68] Processing: MP_04511.JPG
+2026-06-24 21:56:43 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04511.JPG (8.4MB)
+2026-06-24 21:56:52 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04511.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 21:56:52 - [WARNING] - _process_worker:159 - ⚠️  Attempt 1/2 failed. Retrying...
+2026-06-24 21:56:53 - [INFO] - _process_worker:147 - [7/68] Processing: MP_04511.JPG
+2026-06-24 21:56:53 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04511.JPG (8.4MB)
+2026-06-24 21:57:03 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04511.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 21:57:03 - [ERROR] - _process_worker:162 - ❌ Failed after 2 attempts: MP_04511.JPG
+2026-06-24 21:57:03 - [INFO] - _process_worker:147 - [8/68] Processing: MP_04503.JPG
+2026-06-24 21:57:03 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04503.JPG (8.4MB)
+2026-06-24 21:57:14 - [DEBUG] - remove_background_api:56 - Successfully saved via API: /home/mustofa/Documents/tamjid_output/2. ASRAMA IMAM MALIKI/MP_04503.png (total: 10.92s)
+2026-06-24 21:57:14 - [INFO] - _process_worker:155 - ✅ Success: MP_04503.JPG
+2026-06-24 21:57:14 - [INFO] - _process_worker:147 - [9/68] Processing: MP_04522.JPG
+2026-06-24 21:57:14 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04522.JPG (8.8MB)
+2026-06-24 21:57:25 - [DEBUG] - remove_background_api:56 - Successfully saved via API: /home/mustofa/Documents/tamjid_output/2. ASRAMA IMAM MALIKI/MP_04522.png (total: 11.42s)
+2026-06-24 21:57:25 - [INFO] - _process_worker:155 - ✅ Success: MP_04522.JPG
+2026-06-24 21:57:25 - [INFO] - _process_worker:147 - [10/68] Processing: MP_04527.JPG
+2026-06-24 21:57:25 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04527.JPG (10.3MB)
+2026-06-24 21:57:36 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04527.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 21:57:36 - [WARNING] - _process_worker:159 - ⚠️  Attempt 1/2 failed. Retrying...
+2026-06-24 21:57:37 - [INFO] - _process_worker:147 - [10/68] Processing: MP_04527.JPG
+2026-06-24 21:57:37 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04527.JPG (10.3MB)
+2026-06-24 21:57:48 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04527.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 21:57:48 - [ERROR] - _process_worker:162 - ❌ Failed after 2 attempts: MP_04527.JPG
+2026-06-24 21:57:48 - [INFO] - _process_worker:147 - [11/68] Processing: MP_04487.JPG
+2026-06-24 21:57:48 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04487.JPG (8.7MB)
+2026-06-24 21:58:00 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04487.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 21:58:00 - [WARNING] - _process_worker:159 - ⚠️  Attempt 1/2 failed. Retrying...
+2026-06-24 21:58:01 - [INFO] - _process_worker:147 - [11/68] Processing: MP_04487.JPG
+2026-06-24 21:58:01 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04487.JPG (8.7MB)
+2026-06-24 21:58:11 - [ERROR] - remove_background_api:64 - Failed to process /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04487.JPG: API Error 429: {"errors":[{"title":"Rate limit exceeded","code":"rate_limit_exceeded"}]}
+2026-06-24 21:58:11 - [ERROR] - _process_worker:162 - ❌ Failed after 2 attempts: MP_04487.JPG
+2026-06-24 21:58:11 - [INFO] - _process_worker:147 - [12/68] Processing: MP_04496.JPG
+2026-06-24 21:58:11 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04496.JPG (8.5MB)
+2026-06-24 21:58:23 - [DEBUG] - remove_background_api:56 - Successfully saved via API: /home/mustofa/Documents/tamjid_output/2. ASRAMA IMAM MALIKI/MP_04496.png (total: 12.01s)
+2026-06-24 21:58:23 - [INFO] - _process_worker:155 - ✅ Success: MP_04496.JPG
+2026-06-24 21:58:23 - [INFO] - _process_worker:147 - [13/68] Processing: MP_04510.JPG
+2026-06-24 21:58:23 - [DEBUG] - remove_background_api:27 - Processing file with API: /home/mustofa/Documents/tamjid/2. ASRAMA IMAM MALIKI/MP_04510.JPG (7.9MB)
