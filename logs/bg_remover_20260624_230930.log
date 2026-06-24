@@ -1,0 +1,402 @@
+2026-06-24 23:09:40 - [INFO] - scan_for_images:70 - Scanning folder: /home/mustofa/Documents/tamjid
+2026-06-24 23:09:40 - [INFO] - scan_for_images:92 - Found 20 valid image files.
+2026-06-24 23:09:46 - [INFO] - _process_worker:61 - ============================================================
+2026-06-24 23:09:46 - [INFO] - _process_worker:62 - 🚀 Starting batch process...
+2026-06-24 23:09:46 - [INFO] - _process_worker:63 - ============================================================
+2026-06-24 23:09:46 - [INFO] - _process_worker:67 - 📋 Phase 1: Validating input folder...
+2026-06-24 23:09:46 - [INFO] - _process_worker:73 - ✅ Input folder valid: /home/mustofa/Documents/tamjid
+2026-06-24 23:09:46 - [INFO] - _process_worker:76 - 📋 Phase 2: Scanning for images...
+2026-06-24 23:09:46 - [INFO] - scan_for_images:70 - Scanning folder: /home/mustofa/Documents/tamjid
+2026-06-24 23:09:46 - [INFO] - scan_for_images:92 - Found 20 valid image files.
+2026-06-24 23:09:46 - [INFO] - _process_worker:85 - ✅ Found 20 images to process
+2026-06-24 23:09:46 - [INFO] - _process_worker:95 - 📋 Phase 3: Validating output folder...
+2026-06-24 23:09:46 - [INFO] - _process_worker:100 - ✅ Output folder valid: /home/mustofa/Documents/tamjid_output
+2026-06-24 23:09:46 - [INFO] - _process_worker:107 - ✅ Disk space OK: 360639.0MB available
+2026-06-24 23:09:46 - [INFO] - _process_worker:110 - 📋 Phase 4: Processing images...
+2026-06-24 23:09:46 - [INFO] - _process_worker:111 - Starting to process 20 files...
+2026-06-24 23:09:46 - [INFO] - _process_worker:147 - [1/20] Processing: MP107733.JPG
+2026-06-24 23:09:46 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107733.JPG (3.2MB)
+2026-06-24 23:09:49 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107733.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:09:49 - [DEBUG] - remove_background:102 - Background removed in 2.66s
+2026-06-24 23:09:51 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107733.png (total: 4.50s)
+2026-06-24 23:09:51 - [INFO] - _process_worker:155 - ✅ Success: MP107733.JPG
+2026-06-24 23:09:51 - [INFO] - _process_worker:147 - [2/20] Processing: MP107728.JPG
+2026-06-24 23:09:51 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107728.JPG (3.5MB)
+2026-06-24 23:09:52 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107728.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:09:52 - [DEBUG] - remove_background:102 - Background removed in 1.43s
+2026-06-24 23:09:54 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107728.png (total: 2.98s)
+2026-06-24 23:09:54 - [INFO] - _process_worker:155 - ✅ Success: MP107728.JPG
+2026-06-24 23:09:54 - [INFO] - _process_worker:147 - [3/20] Processing: MP107734.JPG
+2026-06-24 23:09:54 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107734.JPG (3.4MB)
+2026-06-24 23:09:55 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107734.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:09:55 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:09:57 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107734.png (total: 3.24s)
+2026-06-24 23:09:57 - [INFO] - _process_worker:155 - ✅ Success: MP107734.JPG
+2026-06-24 23:09:57 - [INFO] - _process_worker:147 - [4/20] Processing: MP107737.JPG
+2026-06-24 23:09:57 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107737.JPG (3.7MB)
+2026-06-24 23:09:59 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107737.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:09:59 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:10:00 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107737.png (total: 3.07s)
+2026-06-24 23:10:00 - [INFO] - _process_worker:155 - ✅ Success: MP107737.JPG
+2026-06-24 23:10:00 - [INFO] - _process_worker:147 - [5/20] Processing: MP107738.JPG
+2026-06-24 23:10:00 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107738.JPG (3.4MB)
+2026-06-24 23:10:02 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107738.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:02 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:10:04 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107738.png (total: 3.56s)
+2026-06-24 23:10:04 - [INFO] - _process_worker:155 - ✅ Success: MP107738.JPG
+2026-06-24 23:10:04 - [INFO] - _process_worker:147 - [6/20] Processing: MP107746.JPG
+2026-06-24 23:10:04 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107746.JPG (3.0MB)
+2026-06-24 23:10:05 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107746.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:05 - [DEBUG] - remove_background:102 - Background removed in 1.37s
+2026-06-24 23:10:07 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107746.png (total: 3.18s)
+2026-06-24 23:10:07 - [INFO] - _process_worker:155 - ✅ Success: MP107746.JPG
+2026-06-24 23:10:07 - [INFO] - _process_worker:147 - [7/20] Processing: MP107743.JPG
+2026-06-24 23:10:07 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107743.JPG (3.7MB)
+2026-06-24 23:10:09 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107743.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:09 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:10:10 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107743.png (total: 3.13s)
+2026-06-24 23:10:11 - [INFO] - _process_worker:155 - ✅ Success: MP107743.JPG
+2026-06-24 23:10:11 - [INFO] - _process_worker:147 - [8/20] Processing: MP107741.JPG
+2026-06-24 23:10:11 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107741.JPG (3.5MB)
+2026-06-24 23:10:12 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107741.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:12 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:10:14 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107741.png (total: 3.02s)
+2026-06-24 23:10:14 - [INFO] - _process_worker:155 - ✅ Success: MP107741.JPG
+2026-06-24 23:10:14 - [INFO] - _process_worker:147 - [9/20] Processing: MP107731.JPG
+2026-06-24 23:10:14 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107731.JPG (3.3MB)
+2026-06-24 23:10:15 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107731.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:15 - [DEBUG] - remove_background:102 - Background removed in 1.43s
+2026-06-24 23:10:17 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107731.png (total: 2.94s)
+2026-06-24 23:10:17 - [INFO] - _process_worker:155 - ✅ Success: MP107731.JPG
+2026-06-24 23:10:17 - [INFO] - _process_worker:147 - [10/20] Processing: MP107742.JPG
+2026-06-24 23:10:17 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107742.JPG (3.5MB)
+2026-06-24 23:10:18 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107742.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:18 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:10:20 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107742.png (total: 3.11s)
+2026-06-24 23:10:20 - [INFO] - _process_worker:155 - ✅ Success: MP107742.JPG
+2026-06-24 23:10:20 - [INFO] - _process_worker:147 - [11/20] Processing: MP107739.JPG
+2026-06-24 23:10:20 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107739.JPG (3.4MB)
+2026-06-24 23:10:21 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107739.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:21 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:10:23 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107739.png (total: 3.46s)
+2026-06-24 23:10:23 - [INFO] - _process_worker:155 - ✅ Success: MP107739.JPG
+2026-06-24 23:10:23 - [INFO] - _process_worker:147 - [12/20] Processing: MP107730.JPG
+2026-06-24 23:10:23 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107730.JPG (3.6MB)
+2026-06-24 23:10:25 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107730.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:25 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:10:26 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107730.png (total: 2.99s)
+2026-06-24 23:10:26 - [INFO] - _process_worker:155 - ✅ Success: MP107730.JPG
+2026-06-24 23:10:26 - [INFO] - _process_worker:147 - [13/20] Processing: MP107729.JPG
+2026-06-24 23:10:26 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107729.JPG (3.6MB)
+2026-06-24 23:10:28 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107729.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:28 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:10:29 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107729.png (total: 2.85s)
+2026-06-24 23:10:29 - [INFO] - _process_worker:155 - ✅ Success: MP107729.JPG
+2026-06-24 23:10:29 - [INFO] - _process_worker:147 - [14/20] Processing: MP107727.JPG
+2026-06-24 23:10:29 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107727.JPG (3.3MB)
+2026-06-24 23:10:31 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107727.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:31 - [DEBUG] - remove_background:102 - Background removed in 1.43s
+2026-06-24 23:10:32 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107727.png (total: 3.08s)
+2026-06-24 23:10:32 - [INFO] - _process_worker:155 - ✅ Success: MP107727.JPG
+2026-06-24 23:10:32 - [INFO] - _process_worker:147 - [15/20] Processing: MP107745.JPG
+2026-06-24 23:10:32 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107745.JPG (3.7MB)
+2026-06-24 23:10:34 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107745.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:34 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:10:36 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107745.png (total: 3.29s)
+2026-06-24 23:10:36 - [INFO] - _process_worker:155 - ✅ Success: MP107745.JPG
+2026-06-24 23:10:36 - [INFO] - _process_worker:147 - [16/20] Processing: MP107740.JPG
+2026-06-24 23:10:36 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107740.JPG (3.2MB)
+2026-06-24 23:10:37 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107740.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:37 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:10:39 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107740.png (total: 3.24s)
+2026-06-24 23:10:39 - [INFO] - _process_worker:155 - ✅ Success: MP107740.JPG
+2026-06-24 23:10:39 - [INFO] - _process_worker:147 - [17/20] Processing: MP107725.JPG
+2026-06-24 23:10:39 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107725.JPG (3.3MB)
+2026-06-24 23:10:40 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107725.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:40 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:10:42 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107725.png (total: 3.00s)
+2026-06-24 23:10:42 - [INFO] - _process_worker:155 - ✅ Success: MP107725.JPG
+2026-06-24 23:10:42 - [INFO] - _process_worker:147 - [18/20] Processing: MP107723.JPG
+2026-06-24 23:10:42 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107723.JPG (3.2MB)
+2026-06-24 23:10:44 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107723.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:44 - [DEBUG] - remove_background:102 - Background removed in 1.43s
+2026-06-24 23:10:45 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107723.png (total: 2.84s)
+2026-06-24 23:10:45 - [INFO] - _process_worker:155 - ✅ Success: MP107723.JPG
+2026-06-24 23:10:45 - [INFO] - _process_worker:147 - [19/20] Processing: MP107736.JPG
+2026-06-24 23:10:45 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107736.JPG (3.3MB)
+2026-06-24 23:10:46 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107736.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:46 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:10:48 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107736.png (total: 3.02s)
+2026-06-24 23:10:48 - [INFO] - _process_worker:155 - ✅ Success: MP107736.JPG
+2026-06-24 23:10:48 - [INFO] - _process_worker:147 - [20/20] Processing: MP107735.JPG
+2026-06-24 23:10:48 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/3. ASRAMA IMAM HANAFI/MP107735.JPG (3.2MB)
+2026-06-24 23:10:50 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk MP107735.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:10:50 - [DEBUG] - remove_background:102 - Background removed in 1.43s
+2026-06-24 23:10:51 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/3. ASRAMA IMAM HANAFI/MP107735.png (total: 3.17s)
+2026-06-24 23:10:51 - [INFO] - _process_worker:155 - ✅ Success: MP107735.JPG
+2026-06-24 23:10:51 - [INFO] - _process_worker:184 - 
+============================================================
+2026-06-24 23:10:51 - [INFO] - _process_worker:185 - ✅ BATCH PROCESS COMPLETED
+2026-06-24 23:10:51 - [INFO] - _process_worker:186 - ============================================================
+2026-06-24 23:10:51 - [INFO] - _log_summary:201 - 📊 Processing Summary:
+2026-06-24 23:10:51 - [INFO] - _log_summary:202 -    ✅ Success: 20/20 (100.0%)
+2026-06-24 23:10:51 - [INFO] - _log_summary:203 -    ❌ Failed: 0
+2026-06-24 23:10:51 - [INFO] - _log_summary:204 -    🔄 Retries: 0
+2026-06-24 23:10:51 - [INFO] - _log_summary:205 -    ⏱️  Total time: 64.9s
+2026-06-24 23:10:51 - [INFO] - _log_summary:209 -    ⏱️  Average per file: 3.24s
+2026-06-24 23:10:51 - [INFO] - _log_summary:218 - ============================================================
+2026-06-24 23:15:41 - [INFO] - scan_for_images:70 - Scanning folder: /home/mustofa/Documents/tamjid
+2026-06-24 23:15:41 - [INFO] - scan_for_images:92 - Found 38 valid image files.
+2026-06-24 23:15:44 - [INFO] - _process_worker:61 - ============================================================
+2026-06-24 23:15:44 - [INFO] - _process_worker:62 - 🚀 Starting batch process...
+2026-06-24 23:15:44 - [INFO] - _process_worker:63 - ============================================================
+2026-06-24 23:15:44 - [INFO] - _process_worker:67 - 📋 Phase 1: Validating input folder...
+2026-06-24 23:15:44 - [INFO] - _process_worker:73 - ✅ Input folder valid: /home/mustofa/Documents/tamjid
+2026-06-24 23:15:44 - [INFO] - _process_worker:76 - 📋 Phase 2: Scanning for images...
+2026-06-24 23:15:44 - [INFO] - scan_for_images:70 - Scanning folder: /home/mustofa/Documents/tamjid
+2026-06-24 23:15:44 - [INFO] - scan_for_images:92 - Found 38 valid image files.
+2026-06-24 23:15:44 - [INFO] - _process_worker:85 - ✅ Found 38 images to process
+2026-06-24 23:15:44 - [INFO] - _process_worker:95 - 📋 Phase 3: Validating output folder...
+2026-06-24 23:15:44 - [INFO] - _process_worker:100 - ✅ Output folder valid: /home/mustofa/Documents/tamjid_output
+2026-06-24 23:15:44 - [INFO] - _process_worker:107 - ✅ Disk space OK: 359871.7MB available
+2026-06-24 23:15:44 - [INFO] - _process_worker:110 - 📋 Phase 4: Processing images...
+2026-06-24 23:15:44 - [INFO] - _process_worker:111 - Starting to process 38 files...
+2026-06-24 23:15:44 - [INFO] - _process_worker:147 - [1/38] Processing: _MP_9596.JPG
+2026-06-24 23:15:44 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9596.JPG (11.8MB)
+2026-06-24 23:15:46 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9596.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:15:46 - [DEBUG] - remove_background:102 - Background removed in 1.47s
+2026-06-24 23:15:48 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9596.png (total: 4.05s)
+2026-06-24 23:15:49 - [INFO] - _process_worker:155 - ✅ Success: _MP_9596.JPG
+2026-06-24 23:15:49 - [INFO] - _process_worker:147 - [2/38] Processing: _MP_9617.JPG
+2026-06-24 23:15:49 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9617.JPG (9.4MB)
+2026-06-24 23:15:50 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9617.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:15:50 - [DEBUG] - remove_background:102 - Background removed in 1.28s
+2026-06-24 23:15:52 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9617.png (total: 3.19s)
+2026-06-24 23:15:52 - [INFO] - _process_worker:155 - ✅ Success: _MP_9617.JPG
+2026-06-24 23:15:52 - [INFO] - _process_worker:147 - [3/38] Processing: _MP_9587.JPG
+2026-06-24 23:15:52 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9587.JPG (10.9MB)
+2026-06-24 23:15:53 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9587.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:15:53 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:15:56 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9587.png (total: 3.93s)
+2026-06-24 23:15:56 - [INFO] - _process_worker:155 - ✅ Success: _MP_9587.JPG
+2026-06-24 23:15:56 - [INFO] - _process_worker:147 - [4/38] Processing: _MP_9603.JPG
+2026-06-24 23:15:56 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9603.JPG (12.1MB)
+2026-06-24 23:15:57 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9603.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:15:57 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:16:00 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9603.png (total: 4.34s)
+2026-06-24 23:16:00 - [INFO] - _process_worker:155 - ✅ Success: _MP_9603.JPG
+2026-06-24 23:16:00 - [INFO] - _process_worker:147 - [5/38] Processing: _MP_9620.JPG
+2026-06-24 23:16:00 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9620.JPG (9.3MB)
+2026-06-24 23:16:02 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9620.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:02 - [DEBUG] - remove_background:102 - Background removed in 1.39s
+2026-06-24 23:16:03 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9620.png (total: 3.26s)
+2026-06-24 23:16:03 - [INFO] - _process_worker:155 - ✅ Success: _MP_9620.JPG
+2026-06-24 23:16:03 - [INFO] - _process_worker:147 - [6/38] Processing: _MP_9613.JPG
+2026-06-24 23:16:03 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9613.JPG (9.1MB)
+2026-06-24 23:16:05 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9613.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:05 - [DEBUG] - remove_background:102 - Background removed in 1.40s
+2026-06-24 23:16:07 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9613.png (total: 3.40s)
+2026-06-24 23:16:07 - [INFO] - _process_worker:155 - ✅ Success: _MP_9613.JPG
+2026-06-24 23:16:07 - [INFO] - _process_worker:147 - [7/38] Processing: _MP_9606.JPG
+2026-06-24 23:16:07 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9606.JPG (10.2MB)
+2026-06-24 23:16:08 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9606.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:08 - [DEBUG] - remove_background:102 - Background removed in 1.40s
+2026-06-24 23:16:11 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9606.png (total: 3.55s)
+2026-06-24 23:16:11 - [INFO] - _process_worker:155 - ✅ Success: _MP_9606.JPG
+2026-06-24 23:16:11 - [INFO] - _process_worker:147 - [8/38] Processing: _MP_9619.JPG
+2026-06-24 23:16:11 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9619.JPG (9.5MB)
+2026-06-24 23:16:12 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9619.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:12 - [DEBUG] - remove_background:102 - Background removed in 1.40s
+2026-06-24 23:16:14 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9619.png (total: 3.21s)
+2026-06-24 23:16:14 - [INFO] - _process_worker:155 - ✅ Success: _MP_9619.JPG
+2026-06-24 23:16:14 - [INFO] - _process_worker:147 - [9/38] Processing: _MP_9594.JPG
+2026-06-24 23:16:14 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9594.JPG (11.1MB)
+2026-06-24 23:16:15 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9594.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:15 - [DEBUG] - remove_background:102 - Background removed in 1.40s
+2026-06-24 23:16:19 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9594.png (total: 4.91s)
+2026-06-24 23:16:19 - [INFO] - _process_worker:155 - ✅ Success: _MP_9594.JPG
+2026-06-24 23:16:19 - [INFO] - _process_worker:147 - [10/38] Processing: _MP_9589.JPG
+2026-06-24 23:16:19 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9589.JPG (11.2MB)
+2026-06-24 23:16:20 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9589.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:20 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:16:24 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9589.png (total: 4.73s)
+2026-06-24 23:16:24 - [INFO] - _process_worker:155 - ✅ Success: _MP_9589.JPG
+2026-06-24 23:16:24 - [INFO] - _process_worker:147 - [11/38] Processing: _MP_9604.JPG
+2026-06-24 23:16:24 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9604.JPG (11.2MB)
+2026-06-24 23:16:25 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9604.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:25 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:16:28 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9604.png (total: 4.86s)
+2026-06-24 23:16:29 - [INFO] - _process_worker:155 - ✅ Success: _MP_9604.JPG
+2026-06-24 23:16:29 - [INFO] - _process_worker:147 - [12/38] Processing: _MP_9611.JPG
+2026-06-24 23:16:29 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9611.JPG (8.5MB)
+2026-06-24 23:16:30 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9611.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:30 - [DEBUG] - remove_background:102 - Background removed in 1.39s
+2026-06-24 23:16:32 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9611.png (total: 3.21s)
+2026-06-24 23:16:32 - [INFO] - _process_worker:155 - ✅ Success: _MP_9611.JPG
+2026-06-24 23:16:32 - [INFO] - _process_worker:147 - [13/38] Processing: _MP_9624.JPG
+2026-06-24 23:16:32 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9624.JPG (9.0MB)
+2026-06-24 23:16:33 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9624.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:33 - [DEBUG] - remove_background:102 - Background removed in 1.34s
+2026-06-24 23:16:35 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9624.png (total: 3.38s)
+2026-06-24 23:16:35 - [INFO] - _process_worker:155 - ✅ Success: _MP_9624.JPG
+2026-06-24 23:16:35 - [INFO] - _process_worker:147 - [14/38] Processing: _MP_9618.JPG
+2026-06-24 23:16:35 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9618.JPG (8.9MB)
+2026-06-24 23:16:37 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9618.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:37 - [DEBUG] - remove_background:102 - Background removed in 1.27s
+2026-06-24 23:16:38 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9618.png (total: 3.24s)
+2026-06-24 23:16:39 - [INFO] - _process_worker:155 - ✅ Success: _MP_9618.JPG
+2026-06-24 23:16:39 - [INFO] - _process_worker:147 - [15/38] Processing: _MP_9612.JPG
+2026-06-24 23:16:39 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9612.JPG (9.2MB)
+2026-06-24 23:16:40 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9612.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:40 - [DEBUG] - remove_background:102 - Background removed in 1.40s
+2026-06-24 23:16:42 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9612.png (total: 3.34s)
+2026-06-24 23:16:42 - [INFO] - _process_worker:155 - ✅ Success: _MP_9612.JPG
+2026-06-24 23:16:42 - [INFO] - _process_worker:147 - [16/38] Processing: _MP_9593.JPG
+2026-06-24 23:16:42 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9593.JPG (10.7MB)
+2026-06-24 23:16:43 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9593.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:43 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:16:47 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9593.png (total: 4.54s)
+2026-06-24 23:16:47 - [INFO] - _process_worker:155 - ✅ Success: _MP_9593.JPG
+2026-06-24 23:16:47 - [INFO] - _process_worker:147 - [17/38] Processing: _MP_9601.JPG
+2026-06-24 23:16:47 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9601.JPG (10.3MB)
+2026-06-24 23:16:48 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9601.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:48 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:16:51 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9601.png (total: 4.15s)
+2026-06-24 23:16:51 - [INFO] - _process_worker:155 - ✅ Success: _MP_9601.JPG
+2026-06-24 23:16:51 - [INFO] - _process_worker:147 - [18/38] Processing: _MP_9599.JPG
+2026-06-24 23:16:51 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9599.JPG (10.8MB)
+2026-06-24 23:16:52 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9599.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:52 - [DEBUG] - remove_background:102 - Background removed in 1.43s
+2026-06-24 23:16:55 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9599.png (total: 4.48s)
+2026-06-24 23:16:55 - [INFO] - _process_worker:155 - ✅ Success: _MP_9599.JPG
+2026-06-24 23:16:55 - [INFO] - _process_worker:147 - [19/38] Processing: _MP_9615.JPG
+2026-06-24 23:16:55 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9615.JPG (9.9MB)
+2026-06-24 23:16:57 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9615.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:16:57 - [DEBUG] - remove_background:102 - Background removed in 1.40s
+2026-06-24 23:16:59 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9615.png (total: 3.47s)
+2026-06-24 23:16:59 - [INFO] - _process_worker:155 - ✅ Success: _MP_9615.JPG
+2026-06-24 23:16:59 - [INFO] - _process_worker:147 - [20/38] Processing: _MP_9614.JPG
+2026-06-24 23:16:59 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9614.JPG (9.3MB)
+2026-06-24 23:17:00 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9614.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:00 - [DEBUG] - remove_background:102 - Background removed in 1.39s
+2026-06-24 23:17:02 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9614.png (total: 3.52s)
+2026-06-24 23:17:02 - [INFO] - _process_worker:155 - ✅ Success: _MP_9614.JPG
+2026-06-24 23:17:02 - [INFO] - _process_worker:147 - [21/38] Processing: _MP_9626.JPG
+2026-06-24 23:17:02 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9626.JPG (10.0MB)
+2026-06-24 23:17:04 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9626.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:04 - [DEBUG] - remove_background:102 - Background removed in 1.40s
+2026-06-24 23:17:06 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9626.png (total: 3.63s)
+2026-06-24 23:17:06 - [INFO] - _process_worker:155 - ✅ Success: _MP_9626.JPG
+2026-06-24 23:17:06 - [INFO] - _process_worker:147 - [22/38] Processing: _MP_9595.JPG
+2026-06-24 23:17:06 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9595.JPG (11.1MB)
+2026-06-24 23:17:08 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9595.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:08 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:17:10 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9595.png (total: 4.19s)
+2026-06-24 23:17:10 - [INFO] - _process_worker:155 - ✅ Success: _MP_9595.JPG
+2026-06-24 23:17:10 - [INFO] - _process_worker:147 - [23/38] Processing: _MP_9623.JPG
+2026-06-24 23:17:10 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9623.JPG (11.0MB)
+2026-06-24 23:17:12 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9623.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:12 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:17:14 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9623.png (total: 3.28s)
+2026-06-24 23:17:14 - [INFO] - _process_worker:155 - ✅ Success: _MP_9623.JPG
+2026-06-24 23:17:14 - [INFO] - _process_worker:147 - [24/38] Processing: _MP_9627.JPG
+2026-06-24 23:17:14 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9627.JPG (10.5MB)
+2026-06-24 23:17:15 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9627.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:15 - [DEBUG] - remove_background:102 - Background removed in 1.40s
+2026-06-24 23:17:17 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9627.png (total: 3.69s)
+2026-06-24 23:17:17 - [INFO] - _process_worker:155 - ✅ Success: _MP_9627.JPG
+2026-06-24 23:17:17 - [INFO] - _process_worker:147 - [25/38] Processing: _MP_9602.JPG
+2026-06-24 23:17:17 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9602.JPG (10.9MB)
+2026-06-24 23:17:19 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9602.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:19 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:17:23 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9602.png (total: 5.06s)
+2026-06-24 23:17:23 - [INFO] - _process_worker:155 - ✅ Success: _MP_9602.JPG
+2026-06-24 23:17:23 - [INFO] - _process_worker:147 - [26/38] Processing: _MP_9598.JPG
+2026-06-24 23:17:23 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9598.JPG (11.0MB)
+2026-06-24 23:17:24 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9598.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:24 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:17:27 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9598.png (total: 4.35s)
+2026-06-24 23:17:27 - [INFO] - _process_worker:155 - ✅ Success: _MP_9598.JPG
+2026-06-24 23:17:27 - [INFO] - _process_worker:147 - [27/38] Processing: _MP_9590.JPG
+2026-06-24 23:17:27 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9590.JPG (9.9MB)
+2026-06-24 23:17:28 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9590.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:28 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:17:31 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9590.png (total: 4.12s)
+2026-06-24 23:17:31 - [INFO] - _process_worker:155 - ✅ Success: _MP_9590.JPG
+2026-06-24 23:17:31 - [INFO] - _process_worker:147 - [28/38] Processing: _MP_9605.JPG
+2026-06-24 23:17:31 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9605.JPG (10.8MB)
+2026-06-24 23:17:33 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9605.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:33 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:17:36 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9605.png (total: 4.65s)
+2026-06-24 23:17:36 - [INFO] - _process_worker:155 - ✅ Success: _MP_9605.JPG
+2026-06-24 23:17:36 - [INFO] - _process_worker:147 - [29/38] Processing: _MP_9588.JPG
+2026-06-24 23:17:36 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9588.JPG (11.4MB)
+2026-06-24 23:17:37 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9588.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:37 - [DEBUG] - remove_background:102 - Background removed in 1.42s
+2026-06-24 23:17:41 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9588.png (total: 5.06s)
+2026-06-24 23:17:41 - [INFO] - _process_worker:155 - ✅ Success: _MP_9588.JPG
+2026-06-24 23:17:41 - [INFO] - _process_worker:147 - [30/38] Processing: _MP_9628.JPG
+2026-06-24 23:17:41 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9628.JPG (9.7MB)
+2026-06-24 23:17:42 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9628.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:42 - [DEBUG] - remove_background:102 - Background removed in 1.39s
+2026-06-24 23:17:44 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9628.png (total: 3.32s)
+2026-06-24 23:17:44 - [INFO] - _process_worker:155 - ✅ Success: _MP_9628.JPG
+2026-06-24 23:17:44 - [INFO] - _process_worker:147 - [31/38] Processing: _MP_9607.JPG
+2026-06-24 23:17:44 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9607.JPG (9.3MB)
+2026-06-24 23:17:46 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9607.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:46 - [DEBUG] - remove_background:102 - Background removed in 1.40s
+2026-06-24 23:17:48 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9607.png (total: 3.11s)
+2026-06-24 23:17:48 - [INFO] - _process_worker:155 - ✅ Success: _MP_9607.JPG
+2026-06-24 23:17:48 - [INFO] - _process_worker:147 - [32/38] Processing: _MP_9625.JPG
+2026-06-24 23:17:48 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9625.JPG (10.6MB)
+2026-06-24 23:17:49 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9625.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:49 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:17:51 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9625.png (total: 3.69s)
+2026-06-24 23:17:51 - [INFO] - _process_worker:155 - ✅ Success: _MP_9625.JPG
+2026-06-24 23:17:51 - [INFO] - _process_worker:147 - [33/38] Processing: _MP_9616.JPG
+2026-06-24 23:17:51 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9616.JPG (9.7MB)
+2026-06-24 23:17:53 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9616.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:53 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:17:55 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9616.png (total: 3.28s)
+2026-06-24 23:17:55 - [INFO] - _process_worker:155 - ✅ Success: _MP_9616.JPG
+2026-06-24 23:17:55 - [INFO] - _process_worker:147 - [34/38] Processing: _MP_9597.JPG
+2026-06-24 23:17:55 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9597.JPG (11.2MB)
+2026-06-24 23:17:56 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9597.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:17:56 - [DEBUG] - remove_background:102 - Background removed in 1.41s
+2026-06-24 23:17:59 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9597.png (total: 4.18s)
+2026-06-24 23:17:59 - [INFO] - _process_worker:155 - ✅ Success: _MP_9597.JPG
+2026-06-24 23:17:59 - [INFO] - _process_worker:147 - [35/38] Processing: _MP_9621.JPG
+2026-06-24 23:17:59 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9621.JPG (9.3MB)
+2026-06-24 23:18:00 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9621.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:18:00 - [DEBUG] - remove_background:102 - Background removed in 1.44s
+2026-06-24 23:18:03 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9621.png (total: 3.69s)
+2026-06-24 23:18:03 - [INFO] - _process_worker:155 - ✅ Success: _MP_9621.JPG
+2026-06-24 23:18:03 - [INFO] - _process_worker:147 - [36/38] Processing: _MP_9592.JPG
+2026-06-24 23:18:03 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9592.JPG (11.3MB)
+2026-06-24 23:18:04 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9592.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:18:04 - [DEBUG] - remove_background:102 - Background removed in 1.45s
+2026-06-24 23:18:07 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9592.png (total: 4.20s)
+2026-06-24 23:18:07 - [INFO] - _process_worker:155 - ✅ Success: _MP_9592.JPG
+2026-06-24 23:18:07 - [INFO] - _process_worker:147 - [37/38] Processing: _MP_9608.JPG
+2026-06-24 23:18:07 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9608.JPG (9.3MB)
+2026-06-24 23:18:09 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9608.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:18:09 - [DEBUG] - remove_background:102 - Background removed in 1.54s
+2026-06-24 23:18:10 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9608.png (total: 3.51s)
+2026-06-24 23:18:11 - [INFO] - _process_worker:155 - ✅ Success: _MP_9608.JPG
+2026-06-24 23:18:11 - [INFO] - _process_worker:147 - [38/38] Processing: _MP_9591.JPG
+2026-06-24 23:18:11 - [DEBUG] - remove_background:48 - Processing file: /home/mustofa/Documents/tamjid/5. ASRAMA IMAM SYAFI_I/_MP_9591.JPG (11.8MB)
+2026-06-24 23:18:12 - [DEBUG] - remove_background:96 - Alpha matting otomatis dimatikan untuk _MP_9591.JPG karena resolusi terlalu besar (6000x3376)
+2026-06-24 23:18:12 - [DEBUG] - remove_background:102 - Background removed in 1.47s
+2026-06-24 23:18:15 - [DEBUG] - remove_background:136 - Successfully saved: /home/mustofa/Documents/tamjid_output/5. ASRAMA IMAM SYAFI_I/_MP_9591.png (total: 4.56s)
+2026-06-24 23:18:15 - [INFO] - _process_worker:155 - ✅ Success: _MP_9591.JPG
+2026-06-24 23:18:15 - [INFO] - _process_worker:184 - 
+============================================================
+2026-06-24 23:18:15 - [INFO] - _process_worker:185 - ✅ BATCH PROCESS COMPLETED
+2026-06-24 23:18:15 - [INFO] - _process_worker:186 - ============================================================
+2026-06-24 23:18:15 - [INFO] - _log_summary:201 - 📊 Processing Summary:
+2026-06-24 23:18:15 - [INFO] - _log_summary:202 -    ✅ Success: 38/38 (100.0%)
+2026-06-24 23:18:15 - [INFO] - _log_summary:203 -    ❌ Failed: 0
+2026-06-24 23:18:15 - [INFO] - _log_summary:204 -    🔄 Retries: 0
+2026-06-24 23:18:15 - [INFO] - _log_summary:205 -    ⏱️  Total time: 150.8s
+2026-06-24 23:18:15 - [INFO] - _log_summary:209 -    ⏱️  Average per file: 3.97s
+2026-06-24 23:18:15 - [INFO] - _log_summary:218 - ============================================================
