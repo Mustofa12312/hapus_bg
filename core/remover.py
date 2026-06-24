@@ -1,9 +1,17 @@
 import os
 import time
-from rembg import remove
+import gc
+from rembg import remove, new_session
 from PIL import Image
 from utils.logger import logger
 from config import PROCESS_TIMEOUT_SECONDS
+
+# Create a single global session to avoid memory leaks
+try:
+    global_session = new_session()
+except Exception as e:
+    logger.error(f"Failed to initialize rembg session: {e}")
+    global_session = None
 
 class RemovalError(Exception):
     """Base class for removal errors"""
@@ -73,6 +81,7 @@ def remove_background(input_path: str, output_path: str) -> tuple[bool, str]:
             # Menggunakan alpha matting dan post process mask untuk hasil yang lebih halus
             output_image = remove(
                 input_image,
+                session=global_session,
                 alpha_matting=True,
                 alpha_matting_foreground_threshold=240,
                 alpha_matting_background_threshold=10,
@@ -128,6 +137,19 @@ def remove_background(input_path: str, output_path: str) -> tuple[bool, str]:
             error_msg = f"Error saving output: {e}"
             logger.error(f"Failed to process {input_path}: {error_msg}")
             return False, error_msg
+        finally:
+            # Force garbage collection to prevent OOM
+            if 'input_image' in locals():
+                try:
+                    input_image.close()
+                except:
+                    pass
+            if 'output_image' in locals():
+                try:
+                    output_image.close()
+                except:
+                    pass
+            gc.collect()
     
     except Exception as e:
         error_msg = f"Unexpected error: {e}"
